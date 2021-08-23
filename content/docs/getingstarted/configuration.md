@@ -23,7 +23,7 @@ In the SD card is a folder named 'config'. Inside this folder is the config file
 
 A fresh copy of the SD Card can be found [here](https://github.com/FactoryOptic/syncrolinkSDCard)
 
-```
+```plaintext
 sd card
 |   readme.md #this file
 +---config
@@ -52,7 +52,7 @@ DHCP can take up to 60 seconds on power-up, so it is recommended that static IP 
 
 Below is an example network.txt file
 
-```
+```plaintext
 192.168.1.100
 255.255.255.0
 192.168.1.1

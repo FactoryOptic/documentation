@@ -82,7 +82,7 @@ The SYNCRO-LINK MARK-ZERO makes use of the LONET-Unreal-Plugin created by Andy J
 ### Select "Camera to Drive"
 
 - Under XDClient, find Details, Default, you will find setting for "Camera to Drive"
-- Select the CineCameraActor 
+- Select the CineCameraActor
 
 ### Confirm CineCameraActor is updating
 
