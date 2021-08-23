@@ -61,5 +61,8 @@
   },
   "otherDependencies": {
     "hugo": "0.87.0"
+  },
+  "dependencies": {
+    "optionator": "^0.9.1"
   }
 }
