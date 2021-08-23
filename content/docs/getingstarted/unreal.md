@@ -31,9 +31,9 @@ The SYNCRO-LINK MARK-ZERO makes use of the LONET-Unreal-Plugin created by Andy J
 
 - Open LiveLink
 ![LiveLink1](/livelink1.png)
-- Select '+ Source', then LOLED LiveLink, set the port number to the UDP port you configured in dest.txt file 
-    - You can leave the IP address set to 0.0.0.0
-    - be sure to click OK button to close
+- Select '+ Source', then LOLED LiveLink, set the port number to the UDP port you configured in dest.txt file
+  - You can leave the IP address set to 0.0.0.0
+  - be sure to click OK button to close
 
 - If the SYNCRO-LINK is configured properly and streaming UDP packets, you will see 4 green dots as shown below
 ![LiveLink2](/livelink2.png)
@@ -45,10 +45,10 @@ The SYNCRO-LINK MARK-ZERO makes use of the LONET-Unreal-Plugin created by Andy J
 
 - XDClient should be present in your project, looking at the 'World Outliner', which shows all the actors in the current level
 - Under 'Details' find the four components
-    - Under XDDistortionLiveLink, set Subject Representation to ..._Distortion...
-    - Under XDHeightLiveLink, set Subject Representation to ..._ImageHeight...
-    - Under XDShadingLiveLink, set Subject Representation to ..._Shading...
-    - Under XDLensLiveLink, set Subject Representation to ..._Lens...
+  - Under XDDistortionLiveLink, set Subject Representation to ..._Distortion...
+  - Under XDHeightLiveLink, set Subject Representation to ..._ImageHeight...
+  - Under XDShadingLiveLink, set Subject Representation to ..._Shading...
+  - Under XDLensLiveLink, set Subject Representation to ..._Lens...
 ![XDClient](/xdclient1.png)
 
 ### Configure Blueprint
@@ -57,11 +57,11 @@ The SYNCRO-LINK MARK-ZERO makes use of the LONET-Unreal-Plugin created by Andy J
 - The Blueprint should look like this
 ![blueprint](/blueprint.png)
 - Find the Make Fx Fy section
-    - Enter the 'Sensor Res X' as the video width being ingested into Unreal
-    - Note, the sensor may have higher resolution than what is sent out the HDMI/HDSDI and it's important to provide the resolution of the video stream, which may be different than the sensor resolution.
-    - Enter the 'Sensor Res Y' as the video height being ingested into Unreal
-    - Enter the 'Sensor Size X' as the width in mm of the sensor's active area being used to capture the resolution.
-    - It is important to take into account any scaling and cropping being done to determine the active area of the sensor for these values. Consult the camera manufacturer's information. 
+  - Enter the 'Sensor Res X' as the video width being ingested into Unreal
+  - Note, the sensor may have higher resolution than what is sent out the HDMI/HDSDI and it's important to provide the resolution of the video stream, which may be different than the sensor resolution.
+  - Enter the 'Sensor Res Y' as the video height being ingested into Unreal
+  - Enter the 'Sensor Size X' as the width in mm of the sensor's active area being used to capture the resolution.
+  - It is important to take into account any scaling and cropping being done to determine the active area of the sensor for these values. Consult the camera manufacturer's information.
 ![Pixel Resolution](/pixel1.png)
 
 - Find the Distortion section and set the subject to ..._Distortion...
@@ -86,6 +86,6 @@ The SYNCRO-LINK MARK-ZERO makes use of the LONET-Unreal-Plugin created by Andy J
 
 ### Confirm CineCameraActor is updating
 
-- Now in your project click on CineCameraActor. The window showing the actual focal length of the lens. If it matches, everything is configured. 
+- Now in your project click on CineCameraActor. The window showing the actual focal length of the lens. If it matches, everything is configured.
 ![CineCameraActor](/cinecameraactor.png)
 - If the film back settings don't match, you can update them

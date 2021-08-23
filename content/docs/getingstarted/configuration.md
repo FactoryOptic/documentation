@@ -71,7 +71,7 @@ The file consists of the following 2 lines and can be edited with any text edito
 
 Below is an example dest.txt file
 
-```
+```plaintext
 192.168.1.200
 20000
 ```
@@ -84,8 +84,8 @@ For example, if you have 4 machines
 - 192.168.8.100
 - 192.168.8.200
 - 192.168.8.230
- 
-Just set the dest.txt to 192.168.8.255 and it will broadcast to all 
+
+Just set the dest.txt to 192.168.8.255 and it will broadcast to all
 
 ### ntp.txt (optional)
 
@@ -100,21 +100,21 @@ The file consists of the following 1 line and can be edited with any text editor
 Line 1 - IP address for NTP server
 Below is an example ntp.txt file
 
-```
+```plaintext
 192.168.1.10
 ```
 
 ### stream.txt (optional)
 
-This is the config file for user selecting the streaming format. 
+This is the config file for user selecting the streaming format.
 
-If file doesn't exist, SYNCRO-LINK will default to F3. 
+If file doesn't exist, SYNCRO-LINK will default to F3.
 
 The file consists of one line and can be edited with any text editor.
 
 Line 1 - hex value of streaming format
 Below is an example stream.txt file
 
-```
+```plaintext
 F3
 ```

@@ -15,7 +15,7 @@ toc: true
 
 ### Quick Start
 
-See GETTING STARTED section for the quick start setup Syncro-Link. 
+See GETTING STARTED section for the quick start setup Syncro-Link.
 
 ## Go further
 
@@ -27,4 +27,4 @@ To be added
 
 ## Help
 
-Get help on from Factory Optic. 
+Get help on from Factory Optic.
