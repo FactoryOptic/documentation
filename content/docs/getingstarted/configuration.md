@@ -35,6 +35,7 @@ sd card
 ```
 
 ### network.txt
+
 This is the config file for the SYNCRO-LINK network settings.
 
 The file consists of the following 5 lines and can be edited with any text editor.
@@ -60,6 +61,7 @@ static
 ```
 
 ### dest.txt
+
 This is the config file for the destination server, which is the machine running the Unreal Engine plugin or other software that is waiting to accept UDP packets.
 
 The file consists of the following 2 lines and can be edited with any text editor.
@@ -73,18 +75,20 @@ Below is an example dest.txt file
 192.168.1.200
 20000
 ```
+
 Note: for broadcasting to several Unreal Engine LiveLink servers, make sure all UE machines are on the same subnet.
 
 For example, if you have 4 machines
 
-* 192.168.8.20
-* 192.168.8.100
-* 192.168.8.200
-* 192.168.8.230
+- 192.168.8.20
+- 192.168.8.100
+- 192.168.8.200
+- 192.168.8.230
  
 Just set the dest.txt to 192.168.8.255 and it will broadcast to all 
 
 ### ntp.txt (optional)
+
 The SYNCRO-LINK doesn't contain a battery backed up real time clock, but can connect to an NTP server for getting updated time of day upon powerup. This is not required for operation, but for the LOG file timestamp.
 
 If ntp.txt file doesn't exist, SYNCRO-LINK will attempt to obtain time from pool.ntp.org. If SYNCRO-LINK is on an air-gapped network or doesn't have internet access (recommended configuration), simply setup any linux machine (sudo apt install ntp, then be sure firewall port 123/udp is open) to be an NTP server and use that IP address, if needed.
@@ -101,6 +105,7 @@ Below is an example ntp.txt file
 ```
 
 ### stream.txt (optional)
+
 This is the config file for user selecting the streaming format. 
 
 If file doesn't exist, SYNCRO-LINK will default to F3. 
@@ -109,6 +114,7 @@ The file consists of one line and can be edited with any text editor.
 
 Line 1 - hex value of streaming format
 Below is an example stream.txt file
+
 ```
 F3
 ```
