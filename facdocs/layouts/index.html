@@ -1,0 +1,59 @@
+{{ define "main" }}
+<section class="section container-fluid mt-n3 pb-3">
+  <div class="row justify-content-center">
+    <div class="col-lg-12 text-center">
+      <h1 class="mt-0">{{ .Title }}</h1>
+    </div>
+    <div class="col-lg-9 col-xl-8 text-center">
+      <p class="lead">{{ .Params.lead | safeHTML }}</p>
+      <a class="btn btn-primary btn-lg px-4 mb-2" href="{{ "docs/prologue/introduction/" | relURL }}" role="button">Get started</a>
+      <p class="meta">Open-source MIT Licensed. <a href="https://github.com/h-enk/doks">GitHub v{{ $data := getJSON "https://raw.githubusercontent.com/h-enk/doks/master/package.json" }}{{ $data.version }}</a></p>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ define "sidebar-prefooter" }}
+<section class="section section-sm">
+  <div class="container">
+    <div class="row justify-content-center text-center">
+      <div class="col-lg-5">
+        <h2 class="h4">Built for Virtual Production</h2>
+        <p>Syncro-Link is made for Virtual Production</p>
+      </div>
+      <div class="col-lg-5">
+        <h2 class="h4">Quick to use ⚡️</h2>
+        <p>Syncro-Link Mark Zero can be up and running in a few minutes.</p>
+      </div>
+      <div class="col-lg-5">
+        <h2 class="h4">Unreal Engine-ready</h2>
+        <p>Connects to Unreal with Live Link, using open-source plugins an blueprints.</p>
+      </div>
+    </div>
+    <div class="row justify-content-center text-center">
+      <div class="col-lg-5">
+        <h2 class="h4">UE 4.27 Support Coming Soon</h2>
+        <p>With 4.27 LiveLink plugins for PrestonMDR, Syncro-Link will support direct interface to Preson MDR (II, III & IV) to become your Preston Server with Genlock and Timecode support for older MDR-II.</p>
+      </div>
+      <div class="col-lg-5">
+        <h2 class="h4">Built on over 2 decades of Metadata experience</h2>
+        <p>If you get a chance, ask us about the early days of embedding FIZ data on an analog audio channel onto Sony HDCam-SR tape.</p>
+      </div>
+      <div class="col-lg-5">
+        <h2 class="h4">Lens Compatability</h2>
+        <p>Factory Optic will be expanding the use of Syncro-Link to support any and all lens metadata that becomes avaiable.</p>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ define "sidebar-footer" }}
+<section class="section section-sm container-fluid">
+  <div class="row justify-content-center text-center">
+    <div class="col-lg-9">
+      {{- .Content -}}
+    </div>
+  </div>
+</section>
+{{ end }}

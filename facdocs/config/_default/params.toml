@@ -1,0 +1,61 @@
+# Meta Data for SEO
+
+## Homepage
+title = "Factory Optic Documentation"
+titleSeparator = "-"
+titleAddition = "Read the Docs"
+description = "Documentation for all Factory Optic products, including Syncro-Link Mark Zero"
+
+## Open Graph
+images = ["doks.png"]
+ogLocale = "en_US"
+domainTLD = "doks.netlify.app"
+titleHome = "Doks Theme"
+
+## Twitter Cards
+twitterSite = "@factoryoptic"
+twitterCreator = "@p_trickcampbell"
+
+## JSON-LD
+schemaType = "Organization"
+schemaLogo = "fac-footer.png"
+schemaTwitter = "https://twitter.com/factoryoptic"
+schemaGitHub = "https://github.com/h-enk/factoryoptic"
+schemaSection = "blog"
+
+## Sitelinks Search Box
+siteLinksSearchBox = false
+
+## Chrome Browser
+themeColor = "#fff"
+
+# Images
+quality = 85
+bgColor = "#fff"
+landscapePhotoWidths = [900, 800, 700, 600, 500]
+portraitPhotoWidths = [800, 700, 600, 500]
+lqipWidth = "20x"
+
+# Footer
+footer = "Powered by <a href=\"https://gohugo.io/\">Hugo</a> & <a href=\"https://getdoks.org/\">Doks</a>"
+copyRight = "Copyright (c) 2021 Factory Optic"
+
+# Alert
+alert = false
+alertText = "Like Doks? <a class=\"alert-link\" href=\"https://github.com/h-enk/doks/stargazers\">Star on GitHub</a>. Thanks!</a>"
+
+# Edit Page
+docsRepo = "https://github.com/FactoryOptic/documentation"
+editPage = false
+
+[options]
+  lazySizes = true
+  clipBoard = true
+  instantPage = true
+  flexSearch = true
+  darkMode = true
+  bootStrapJs = true
+  breadCrumb = false
+  highLight = true
+  kaTex = false
+  collapsibleSidebar = false
