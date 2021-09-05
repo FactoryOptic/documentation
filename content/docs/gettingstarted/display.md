@@ -9,7 +9,7 @@ images: []
 menu:
   docs:
     parent: "gettingstarted"
-weight: 430
+weight: 330
 toc: true
 ---
 
@@ -19,7 +19,7 @@ The SYNCRO-LINK has an onboard OLED display that displays useful information.
 
 #### Page 1
 
-![page 1](/syncrolink_page1.png)
+![page 1](/images/syncrolink_page1.png)
 
 - On the top bar
   - UDP will indicate whenever UDP packets are streaming, usually takes 45-60 seconds afterbootup if the network settings are correct
@@ -48,7 +48,7 @@ The SYNCRO-LINK has an onboard OLED display that displays useful information.
 
 #### Page 2
 
-![page 2](/syncrolink_page2.png)
+![page 2](/images/syncrolink_page2.png)
 
 - On the left
   - Focus distance
@@ -58,7 +58,7 @@ The SYNCRO-LINK has an onboard OLED display that displays useful information.
 
 #### Page 3
 
-![page 3](/syncrolink_page3.png)
+![page 3](/images/syncrolink_page3.png)
 
 - On the left
   - Lens manufacturer
@@ -67,7 +67,7 @@ The SYNCRO-LINK has an onboard OLED display that displays useful information.
 
 #### Page 4
 
-![page 4](/syncrolink_page4.png)
+![page 4](/images/syncrolink_page4.png)
 
 - On the left
   - PoE Voltage

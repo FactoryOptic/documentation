@@ -9,11 +9,11 @@ images: []
 menu:
   docs:
     parent: "gettingstarted"
-weight: 410
+weight: 310
 toc: true
 ---
 
-![sdcard](/sdcard.png)
+![sdcard](/images/sdcard.png)
 
 On the side of the SYNCRO-LINK is an microSD slot with a factory installed memory card.
 
@@ -118,3 +118,4 @@ Below is an example stream.txt file
 ```plaintext
 F3
 ```
+

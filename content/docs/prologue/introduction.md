@@ -15,11 +15,11 @@ toc: true
 
 ### Quick Start
 
-See GETTING STARTED section for the quick start setup Syncro-Link.
+See [GETTING STARTED](/docs/gettingstarted/configuration/) section for the quick start setup Syncro-Link with XD Lenses.
 
-## Go further
+## Network Interfaces
 
-to be added
+Syncro-Link can connect and stream to a variety of [streaming network interfaces](/docs/networkinterface/LONET/) 
 
 ### Reference Guides
 
