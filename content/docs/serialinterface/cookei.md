@@ -25,7 +25,7 @@ Cooke metadata collected by Syncro-Link will include the following CORE metadata
     Far focus distance
     Entrance pupil position
     Horizontal field of view, based on 35mm film reference frame
-    
+
 Static values include
 
     Lens serial number
@@ -34,7 +34,7 @@ Static values include
     Lens name of manufacturer
     Lens name (typically the lens model #)
 
-### Zeiss eXtended Data (XD) based on Cooke /i 
+### Zeiss eXtended Data (XD) based on Cooke /i
 
 XD data will include all the metadata above and adds the following dynamic values:
 
@@ -50,4 +50,5 @@ The newest Cooke /i cubed data now includes the following:
     Distortion data
 
 ### Interface
+
 Syncro-Link connects to lenses with external Cooke /i metadata ports. Lenses with Cooke /i metadata will have a Lemo 4-pin connector.

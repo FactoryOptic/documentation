@@ -28,12 +28,12 @@ UDP Data format with comma delimiters, variable length, ASCII except field 01
     Field 04 Aperture Value
     Field 05 Focal Length in mm
     Field 06 Entrance Pupil in mm (signed value)
-    Field 07 Hyperfocal Distance in mm 
-    Field 08 Near Focus Distance in mm 
+    Field 07 Hyperfocal Distance in mm
+    Field 08 Near Focus Distance in mm
     Field 09 Far Focus Distance in mm
-    Field 10 Horizontal Field of View in degrees 
+    Field 10 Horizontal Field of View in degrees
 
-    Field 11 Image Height 0 in mm 	
+    Field 11 Image Height 0 in mm
     Field 12 Image Height 1 in mm
     Field 13 Image Height 2 in mm
     Field 14 Image Height 3 in mm
@@ -69,7 +69,7 @@ UDP Data format with comma delimiters, variable length, ASCII except field 01
     Field 41 Lens Firmware Version
 
 
-Example UDP Packet Data 
+Example UDP Packet Data
 
     0000   30 24 32 97 ac 2a 04 e9 e5 0e 5e 2c 08 00 45 00   0$2..*....^,..E.
     0010   01 45 50 8d 00 00 40 11 a4 5e c0 a8 01 ad c0 a8   .EP...@..^......
@@ -92,13 +92,13 @@ Example UDP Packet Data
     0120   34 34 2c 30 2c 36 30 2c 46 55 4a 49 4e 4f 4e 2c   44,0,60,FUJINON,
     0130   46 30 38 30 30 30 30 30 30 2c 46 55 4a 49 46 49   F08000000,FUJIFI
     0140   4c 4d 20 43 6f 72 70 6f 72 61 74 69 6f 6e 2c 36   LM Corporation,6
-    0150   2e 35 32                                          .52                                               
+    0150   2e 35 32                                          .52
 
 Example UDP Payload (ASCII)
 
     ó,Premista28-100mmT2.9 F,3053,3.89,49.9,79,56275,2918,3202,43.2,0,7,11.6,16.2,18.5,20.8,23.2,100,98.2,95.1,90.2,82.6,66.4,48.5,1.3350e-02,1.1320e-02,0.0000e+00,0.0000e+00,1.2281e-03,0.0000e+00,0.0000e+00,0.0000e+00,5.0000e-01,5.0000e-01,07:15:13:44,0,60,FUJINON,F08000000,FUJIFILM Corporation,6.52
 
-Example Decoded Values 
+Example Decoded Values
 
     Lens Name = Premista28-100mmT2.9 F
     Focus Distance = 10’-0.2” [3053 mm]
@@ -111,7 +111,7 @@ Example Decoded Values
     HFOV = 43.2° (See note 1)
     Heights Array = 0, 7mm, 11.6mm, 16.2mm, 18.5mm, 20.8mm, 23.2mm
     Shading/Vignetting Array = 100%, 98.2%, 95.1%, 90.2%, 82.6%, 66.4%, 48.5% (see note 2)
-    OpenCV Values: k1 = 1.3350e-02, k2 = 1.1320e-02, p1 = 0, p2 = 0, 
+    OpenCV Values: k1 = 1.3350e-02, k2 = 1.1320e-02, p1 = 0, p2 = 0,
     k3 = 1.2281e-03, k4 = 0, k5 = 0, k6 = 0, cx = 0.5, cy = 0.5 (see note 3)
     Timecode: 07:15:13:44
     Dropframe: 0 = non-dropframe
@@ -122,29 +122,26 @@ Example Decoded Values
     Lens Firmware: 6.52
 
 Notes
-1.	Entrance Pupil for Zeiss and Fujinon lenses is measured from the front face of the lens. 
+1.	Entrance Pupil for Zeiss and Fujinon lenses is measured from the front face of the lens.
 2.	Per Cooke /i format, the reference frame size used for the Horizontal Field of View is based on the dimensions for 35mm film (full aperture) and is specified as 24.892mm. See https://www.cookeoptics.com/s/technicaldocumentation.html
-3.	The lens shading/vignetting and image height values create a curve such that the image height is radial distance from the image center. The resulting plot will show a curve in figure 1. At present, Unreal Engine is unable to make use of this data other than to change the vignetting value (0-1). The LOLED Blueprint will approximate this, but should be considered as such. 
+3.	The lens shading/vignetting and image height values create a curve such that the image height is radial distance from the image center. The resulting plot will show a curve in figure 1. At present, Unreal Engine is unable to make use of this data other than to change the vignetting value (0-1). The LOLED Blueprint will approximate this, but should be considered as such.
 
     ![shading curve](/images/shadingcurve.png)
 
 Figure 1. Lens Shading Curve
-
 
 4.	The OpenCV values provided are normalized for a 36mm x 24mm full-frame sensor. fx and fy are not being streamed as they are dependent on actual pixel pitch.  It is required that the resolution and sensor size values are entered downstream, so fx & fy get updated based on lens focal length, using equations:
 
     fx = focal length (mm) * horizontal resolution (pixels) / sensor width (mm)
     fy = focal length (mm) * vertical resolution (pixels) / sensor height (mm)
 
-    Resolution is of the image size being used and sensor size is actual active area of the sensor used to capture at that resolution. It is simpler when the camera is configured such that the video output matches the active area of the sensor. For example, Sony Venice can output 4K at 4096x2160 with sensor active area of 24.3mm x 12.8mm. 
+    Resolution is of the image size being used and sensor size is actual active area of the sensor used to capture at that resolution. It is simpler when the camera is configured such that the video output matches the active area of the sensor. For example, Sony Venice can output 4K at 4096x2160 with sensor active area of 24.3mm x 12.8mm.
 
     To utilize full-frame, it gets a bit more complex as you have to determine the sensor sized used based on scaling and/or crop. For example, you could configure a Sony Venice at 6K 17:9, the active area of the sensor is 36 x 19mm and the active sensor resolution is 6054 x 3192. If you are streaming video live to a virtual system, the Venice will scale the image to 4K, at 4096 x 2160. In this case, you would enter 4096 pixels & 36mm for horizontal and 2160 pixels & 19mm for vertical.
 
-    For use with Unreal, these values would be entered in the Blueprint. 
+    For use with Unreal, these values would be entered in the Blueprint.
 
 v0.1.0-2021-06-01
-
-
 
 ### Configure Syncro-Link Mark-Zero for streaming F3 packets
 

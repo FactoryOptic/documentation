@@ -118,4 +118,3 @@ Below is an example stream.txt file
 ```plaintext
 F3
 ```
-

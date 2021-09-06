@@ -13,7 +13,7 @@ weight: 470
 toc: true
 ---
 
-### OSC 
+### OSC
 
 The OSC packet will be sent as a bundle in the following format
 
@@ -40,7 +40,8 @@ Below is an example stream.txt file
 D
 ```
 
-To set the camera ID number, create or edit the file 'cameraid.txt and edit the 1st line to set the camera ID 1-9 in decimal or 00-FF in hex. 
+To set the camera ID number, create or edit the file 'cameraid.txt and edit the 1st line to set the camera ID 1-9 in decimal or 00-FF in hex.
+
 ```plaintext
 1
 ```

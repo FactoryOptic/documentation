@@ -34,4 +34,3 @@ F3
 ```
 
 Be sure to setup dest.txt for destination IP and port that is receiving packets, see  [configuration](/docs/gettingstarted/configuration/)
-

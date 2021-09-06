@@ -13,7 +13,7 @@ weight: 450
 toc: true
 ---
 
-### FreeD 
+### FreeD
 
 With XD or Cooke /i lenses, Syncro-Link will send FreeD packets containing zoom, focus and iris as scaled integers as follows
 
