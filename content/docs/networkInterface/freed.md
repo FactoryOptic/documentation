@@ -25,7 +25,6 @@ For example, FreeD will send zoom as 1792 when actual focal length is 28mm.
 
 All camera position tracking fields will be sent as zeros.
 
-
 ### Configure Syncro-Link Mark-Zero for streaming FreeD
 
 On the micro-SD card, there is a config file for user selecting the streaming format.
@@ -38,9 +37,7 @@ Line 1 - hex value of streaming format, which is D1 for FreeD
 
 Below is an example stream.txt file
 
-```plaintext
-D1
-```
+    D1
 
 Be sure to setup dest.txt for destination IP and port that is receiving packets, see  [configuration](/docs/gettingstarted/configuration/)
 

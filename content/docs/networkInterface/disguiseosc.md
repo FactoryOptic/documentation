@@ -36,15 +36,11 @@ The file consists of one line and can be edited with any text editor.
 Line 1 - hex value of streaming format
 Below is an example stream.txt file
 
-```plaintext
-D
-```
+    0D
 
 To set the camera ID number, create or edit the file 'cameraid.txt and edit the 1st line to set the camera ID 1-9 in decimal or 00-FF in hex.
 
-```plaintext
-1
-```
+    01
 
 Be sure to setup dest.txt for destination IP and port that is receiving packets, see  [configuration](/docs/gettingstarted/configuration/)
 

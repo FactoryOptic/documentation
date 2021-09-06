@@ -68,7 +68,6 @@ UDP Data format with comma delimiters, variable length, ASCII except field 01
     Field 40 Lens Owner
     Field 41 Lens Firmware Version
 
-
 Example UDP Packet Data
 
     0000   30 24 32 97 ac 2a 04 e9 e5 0e 5e 2c 08 00 45 00   0$2..*....^,..E.
@@ -122,18 +121,21 @@ Example Decoded Values
     Lens Firmware: 6.52
 
 Notes
-1.	Entrance Pupil for Zeiss and Fujinon lenses is measured from the front face of the lens.
-2.	Per Cooke /i format, the reference frame size used for the Horizontal Field of View is based on the dimensions for 35mm film (full aperture) and is specified as 24.892mm. See https://www.cookeoptics.com/s/technicaldocumentation.html
-3.	The lens shading/vignetting and image height values create a curve such that the image height is radial distance from the image center. The resulting plot will show a curve in figure 1. At present, Unreal Engine is unable to make use of this data other than to change the vignetting value (0-1). The LOLED Blueprint will approximate this, but should be considered as such.
+
+1. Entrance Pupil for Zeiss and Fujinon lenses is measured from the front face of the lens.
+
+2. Per Cooke /i format, the reference frame size used for the Horizontal Field of View is based on the dimensions for 35mm film (full aperture) and is specified as 24.892mm. See https://www.cookeoptics.com/s/technicaldocumentation.html
+
+3. The lens shading/vignetting and image height values create a curve such that the image height is radial distance from the image center. The resulting plot will show a curve in figure 1. At present, Unreal Engine is unable to make use of this data other than to change the vignetting value (0-1). The LOLED Blueprint will approximate this, but should be considered as such.
 
     ![shading curve](/images/shadingcurve.png)
 
-Figure 1. Lens Shading Curve
+    Figure 1. Lens Shading Curve
 
-4.	The OpenCV values provided are normalized for a 36mm x 24mm full-frame sensor. fx and fy are not being streamed as they are dependent on actual pixel pitch.  It is required that the resolution and sensor size values are entered downstream, so fx & fy get updated based on lens focal length, using equations:
+4. The OpenCV values provided are normalized for a 36mm x 24mm full-frame sensor. fx and fy are not being streamed as they are dependent on actual pixel pitch.  It is required that the resolution and sensor size values are entered downstream, so fx & fy get updated based on lens focal length, using equations:
 
-    fx = focal length (mm) * horizontal resolution (pixels) / sensor width (mm)
-    fy = focal length (mm) * vertical resolution (pixels) / sensor height (mm)
+    fx = focal length (mm) x horizontal resolution (pixels) / sensor width (mm)
+    fy = focal length (mm) x vertical resolution (pixels) / sensor height (mm)
 
     Resolution is of the image size being used and sensor size is actual active area of the sensor used to capture at that resolution. It is simpler when the camera is configured such that the video output matches the active area of the sensor. For example, Sony Venice can output 4K at 4096x2160 with sensor active area of 24.3mm x 12.8mm.
 
@@ -154,8 +156,6 @@ The file consists of one line and can be edited with any text editor.
 Line 1 - hex value of streaming format
 Below is an example stream.txt file
 
-```plaintext
-F3
-```
+    F3
 
 Be sure to setup dest.txt for destination IP and port that is receiving packets, see  [configuration](/docs/gettingstarted/configuration/)

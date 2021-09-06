@@ -22,7 +22,7 @@ toc: true
   - Currently supports Cooke /i protocol and Zeiss eXtended Data commands
   - For Fujinon Premista, lens firmware version 6.52 or later is required
   - For Zeiss Supreme Primes and CP.3, lens firmware version 1.71 or later is required
-- LTC IN (Analog) 
+- LTC IN (Analog)
   - BNC
   - Supports SMPTE timecode
 - SYNC IN (Analog only)
