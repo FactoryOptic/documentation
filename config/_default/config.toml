@@ -1,4 +1,4 @@
-baseurl = "https://factoryoptic.github.io/documentation"
+baseurl = "/" #https://factoryoptic.github.io/documentation
 canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true
