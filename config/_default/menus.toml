@@ -11,6 +11,19 @@
   url = "/docs/gettingstarted/"
 
 [[docs]]
+  name = "Serial Interfaces"
+  weight = 35
+  identifier = "serialinterface"
+  url = "/docs/serialinterface/"
+
+
+[[docs]]
+  name = "Network Interfaces"
+  weight = 40
+  identifier = "networkinterface"
+  url = "/docs/networkinterface/"
+
+[[docs]]
   name = "Help"
   weight = 60
   identifier = "help"

@@ -124,27 +124,11 @@ Example Decoded Values
 Notes
 1.	Entrance Pupil for Zeiss and Fujinon lenses is measured from the front face of the lens. 
 2.	Per Cooke /i format, the reference frame size used for the Horizontal Field of View is based on the dimensions for 35mm film (full aperture) and is specified as 24.892mm. See https://www.cookeoptics.com/s/technicaldocumentation.html
-3.	The lens shading/vignetting and image height values create a curve such that the image height is radial distance from the image center. The resulting plot will show a curve in figure 2. At present, Unreal Engine is unable to make use of this data other than to change the vignetting value (0-1). The LOLED Blueprint will approximate this, but should be considered as such. 
+3.	The lens shading/vignetting and image height values create a curve such that the image height is radial distance from the image center. The resulting plot will show a curve in figure 1. At present, Unreal Engine is unable to make use of this data other than to change the vignetting value (0-1). The LOLED Blueprint will approximate this, but should be considered as such. 
 
+    ![shading curve](/images/shadingcurve.png)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-Figure 2. Lens Shading Curve
+Figure 1. Lens Shading Curve
 
 
 4.	The OpenCV values provided are normalized for a 36mm x 24mm full-frame sensor. fx and fy are not being streamed as they are dependent on actual pixel pitch.  It is required that the resolution and sensor size values are entered downstream, so fx & fy get updated based on lens focal length, using equations:
