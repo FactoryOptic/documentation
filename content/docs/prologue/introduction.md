@@ -19,7 +19,7 @@ See [GETTING STARTED](/docs/gettingstarted/configuration/) section for the quick
 
 ## Network Interfaces
 
-Syncro-Link can connect and stream to a variety of [streaming network interfaces](/docs/networkinterface/LONET/) 
+Syncro-Link can connect and stream to a variety of [streaming network interfaces](/docs/networkinterface/LONET/)
 
 ### Reference Guides
 
