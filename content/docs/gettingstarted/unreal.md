@@ -18,8 +18,8 @@ The SYNCRO-LINK MARK-ZERO makes use of the LONET-Unreal-Plugin created by Andy J
 ### UE4.26/4.27 install
 
 - Download the latest plugin (1.7.0 or newer) from LOLED VIRTUAL'S Github site: [https://loledvirtual.com/documentation/docs/unrealreleases/](https://loledvirtual.com/documentation/docs/unrealreleases/)
-- Create a directory named 'plugins' in your Unreal project folder, if it doesn't already exist
-- Unzip the file to the plugins directory
+- Create a directory named 'Plugins' in your Unreal project folder, if it doesn't already exist
+- Unzip the file to the \Plugins directory
 
 ### Open project in Unreal Engine
 
