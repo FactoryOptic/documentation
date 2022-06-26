@@ -1,2 +1,2 @@
-baseurl = "https://factoryoptic.netlify.app/"
-canonifyURLs = true
+baseurl = "https://factoryoptic.github.io/doks/"
+canonifyURLs = false

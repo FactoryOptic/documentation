@@ -1,4 +1,4 @@
-<p align="center">
+<h1 align="center">
   <a href="https://getdoks.org/">
     <img alt="Doks" src="https://doks.netlify.app/doks.svg" width="60">
   </a>
@@ -9,11 +9,11 @@
 </h1>
 
 <h3 align="center">
-  Modern documentation theme
+  Modern Documentation Theme
 </h3>
 
 <p align="center">
-  Doks is a Hugo theme helping you build modern documentation websites that are secure, fast, and SEO-ready — by default.
+  Doks is a Hugo theme for building secure, fast, and SEO-ready documentation websites, which you can easily update and customize.
 </p>
 
 <p align="center">
@@ -22,6 +22,9 @@
   </a>
   <a href="https://github.com/h-enk/doks/releases">
     <img src="https://img.shields.io/github/v/release/h-enk/doks?include_prereleases&style=flat-square"alt="GitHub release (latest SemVer including pre-releases)">
+  </a>
+  <a href="https://www.npmjs.com/package/@hyas/doks">
+    <img src="https://img.shields.io/npm/v/@hyas/doks?style=flat-square" alt="npm (scoped)">
   </a>
   <a href="https://github.com/h-enk/doks/actions?query=workflow%3A%22Hyas+CI%22">
     <img src="https://img.shields.io/github/workflow/status/h-enk/doks/Hyas%20CI/master?style=flat-square" alt="GitHub Workflow Status (branch)">
@@ -39,7 +42,7 @@
 
 ## Why Doks?
 
-Nine reasons why you should use Doks:
+Nine main reasons why you should use Doks:
 
 1. __Security aware__. Get A+ scores on [Mozilla Observatory](https://observatory.mozilla.org/analyze/doks.netlify.app) out of the box. Easily change the default Security Headers to suit your needs.
 
@@ -59,11 +62,25 @@ Nine reasons why you should use Doks:
 
 9. __Dark mode__. Switch to a low-light UI with the click of a button. Change colors with variables to match your branding.
 
+### Other features
+
+- __Multilingual and i18n__ support
+- __Versioning__ documentation support
+- __KaTeX__ math typesetting
+- __Mermaid__ diagrams and visualization
+- __highlight.js__ syntax highlighting
+
 ## Requirements
 
-Doks uses npm to centralize dependency management, making it [easy to update](https://getdoks.org/docs/help/how-to-update/) resources, build tooling, plugins, and build scripts:
+- [Git](https://git-scm.com/) — latest source release
+- [Node.js](https://nodejs.org/) — latest LTS version or newer
 
-- Download and install [Node.js](https://nodejs.org/) (it includes npm) for your platform.
+<details>
+<summary>Why Node.js?</summary>
+
+Doks uses npm (included with Node.js) to centralize dependency management, making it [easy to update](https://getdoks.org/docs/help/how-to-update/) resources, build tooling, plugins, and build scripts.
+
+</details>
 
 ## Get started
 
@@ -71,24 +88,34 @@ Start a new Doks project in three steps:
 
 ### 1. Create a new site
 
-Doks is available as a child theme, and a starter theme:
+Doks is available as a child theme and a starter theme.
 
-- Use the Doks child theme, if you do __not__ plan to customize a lot, and/or need future Doks updates.
-- Use the Doks starter theme, if you plan to customize a lot, and/or do __not__ need future Doks updates.
+#### Child theme
 
-Not quite sure? Use the Doks child theme.
-
-#### Doks child theme
+- Intended for novice to intermediate users
+- Intended for minor customizations
+- [Easily update npm packages](https://getdoks.org/docs/help/how-to-update/) — __including__ [Doks](https://www.npmjs.com/package/@hyas/doks)
 
 ```bash
 git clone https://github.com/h-enk/doks-child-theme.git my-doks-site && cd my-doks-site
 ```
 
-#### Doks starter theme
+#### Starter theme
+
+- Intended for intermediate to advanced users
+- Intended for major customizations
+- [Easily update npm packages](https://getdoks.org/docs/help/how-to-update/)
 
 ```bash
 git clone https://github.com/h-enk/doks.git my-doks-site && cd my-doks-site
 ```
+
+<details>
+<summary>Help me choose</summary>
+
+Not sure which one is for you? Pick the child theme.
+
+</details>
 
 ### 2. Install dependencies
 
@@ -117,3 +144,16 @@ Doks comes with [commands](https://getdoks.org/docs/prologue/commands/) for comm
 - [Netlify Community](https://community.netlify.com/)
 - [Hugo Forums](https://discourse.gohugo.io/)
 - [Doks Discussions](https://github.com/h-enk/doks/discussions)
+
+## Sponsors
+
+Support this project by becoming a sponsor. Your logo will show up here with a link to your website.
+
+[![OC sponsor 0](https://opencollective.com/doks/tiers/sponsor/0/avatar.svg)](https://opencollective.com/doks/tiers/sponsor/0/website)
+[![OC sponsor 1](https://opencollective.com/doks/tiers/sponsor/1/avatar.svg)](https://opencollective.com/doks/tiers/sponsor/1/website)
+
+## Backers
+
+Support this project by becoming a backer. Your avatar will show up here.
+
+[![Backers](https://opencollective.com/doks/tiers/backer.svg)](https://opencollective.com/doks)

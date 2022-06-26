@@ -6,6 +6,9 @@ titleSeparator = "-"
 titleAddition = "Read the Docs"
 description = "Documentation for all Factory Optic products, including Syncro-Link Mark Zero"
 
+## Documentation
+# docsVersion = "0.3"
+
 ## Open Graph
 images = ["doks.png"]
 ogLocale = "en_US"
@@ -14,14 +17,26 @@ titleHome = "Doks Theme"
 
 ## Twitter Cards
 twitterSite = "@factoryoptic"
-twitterCreator = "@p_trickcampbell"
 
 ## JSON-LD
+# schemaType = "Person"
 schemaType = "Organization"
-schemaLogo = "fac-footer.png"
+schemaName = "FAC:DOCS"
+schemaAuthor = "FACTORY OPTIC"
+schemaAuthorTwitter = "https://twitter.com/factoryoptic"
+schemaAuthorLinkedIn = "https://www.linkedin.com/in/factoryoptic/"
+schemaAuthorGitHub = "https://github.com/factoryoptic"
+schemaLocale = "en-US"
+schemaLogo = "/images/fac-footer.png"
+schemaLogoWidth = 512
+schemaLogoHeight = 512
+schemaImage = "doks.png"
+schemaImageWidth = 1280
+schemaImageHeight = 640
 schemaTwitter = "https://twitter.com/factoryoptic"
-schemaGitHub = "https://github.com/h-enk/factoryoptic"
-schemaSection = "blog"
+schemaLinkedIn = ""
+schemaGitHub = "https://github.com/factoryoptic/documentation"
+#schemaSection = "blog"
 
 ## Sitelinks Search Box
 siteLinksSearchBox = false
@@ -35,18 +50,29 @@ bgColor = "#fff"
 landscapePhotoWidths = [900, 800, 700, 600, 500]
 portraitPhotoWidths = [800, 700, 600, 500]
 lqipWidth = "20x"
+smallLimit = "300"
 
 # Footer
-footer = "Powered by <a href=\"https://gohugo.io/\">Hugo</a> & <a href=\"https://getdoks.org/\">Doks</a>"
-copyRight = "Copyright (c) 2021 Factory Optic"
+footer = "Powered by <a class=\"text-muted\" href=\"https://www.netlify.com/\">Netlify</a>, <a class=\"text-muted\" href=\"https://gohugo.io/\">Hugo</a>, and <a class=\"text-muted\" href=\"https://getdoks.org/\">Doks</a>"
+
+# Feed
+copyRight = "Copyright (c) 2021-2022 Factory Optic"
 
 # Alert
 alert = false
-alertText = "Like Doks? <a class=\"alert-link\" href=\"https://github.com/h-enk/doks/stargazers\">Star on GitHub</a>. Thanks!</a>"
+alertDismissable = true
+# alertText = "Introducing the Doks child theme, several DX + UX updates, and more! <a class=\"alert-link stretched-link\" href=\"https://getdoks.org/blog/doks-v0.2/\" target=\"_blank\" rel=\"noopener\">Check out Doks v0.2</a>"
+alertText = "Introducing the Doks child theme, several DX + UX updates, and more! <a class=\"alert-link stretched-link\" href=\"https://getdoks.org/blog/doks-v0.2/\">Check out Doks v0.2</a>"
 
 # Edit Page
+# repoHost [Github | Gitea | GitLab | Bitbucket | BitbucketServer ] is used for building the edit link based on git hoster
+repoHost = "GitHub"
+#repoHost = "Gitea"
 docsRepo = "https://github.com/FactoryOptic/documentation"
+docsRepoBranch = "master"
+docsRepoSubPath = ""
 editPage = false
+lastMod = false
 
 [options]
   lazySizes = true
@@ -58,4 +84,11 @@ editPage = false
   breadCrumb = false
   highLight = true
   kaTex = false
-  collapsibleSidebar = false
+  multilingualMode = false
+  docsVersioning = false
+  fullWidth = false
+
+[menu]
+  [menu.section]
+    auto = true
+    collapsibleSidebar = true
