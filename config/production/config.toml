@@ -2,7 +2,7 @@ defaultContentLanguage: en
 
 languages:
   en:
-    baseURL:"https://factoryoptic.github.io/doks/"
+    baseURL: "https://factoryoptic.github.io/doks/"
     languageName: English
     title: In English
     weight: 2
