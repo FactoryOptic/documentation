@@ -1,2 +1,10 @@
-baseurl = "https://factoryoptic.github.io/doks/"
+defaultContentLanguage: en
+
+languages:
+  en:
+    baseURL:"https://factoryoptic.github.io/doks/"
+    languageName: English
+    title: In English
+    weight: 2
+
 canonifyURLs = false
