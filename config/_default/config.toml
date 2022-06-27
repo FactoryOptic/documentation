@@ -1,4 +1,4 @@
-baseurl = "https://factoryoptic.github.io/doks/"
+baseurl = "https://factoryoptic.netlify.app/"
 canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true
