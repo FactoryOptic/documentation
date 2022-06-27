@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://factoryoptic.github.io/doks/"
 canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true
