@@ -21,13 +21,13 @@ twitterSite = "@factoryoptic"
 ## JSON-LD
 # schemaType = "Person"
 schemaType = "Organization"
-schemaName = "FAC:DOCS"
+schemaName = "doks"
 schemaAuthor = "FACTORY OPTIC"
 schemaAuthorTwitter = "https://twitter.com/factoryoptic"
 schemaAuthorLinkedIn = "https://www.linkedin.com/in/factoryoptic/"
 schemaAuthorGitHub = "https://github.com/factoryoptic"
 schemaLocale = "en-US"
-schemaLogo = "/images/fac-footer.png"
+schemaLogo = "logo-doks.png"
 schemaLogoWidth = 512
 schemaLogoHeight = 512
 schemaImage = "doks.png"

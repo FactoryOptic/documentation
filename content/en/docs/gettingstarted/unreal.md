@@ -88,7 +88,6 @@ myproject.uproject
 </a>
 
 - Find the Image Height section and set the subject to ..._ImageHeight...
-[![Image Height](/images/imageheight.png)](/images/fullsize/imageheight.png)
 <a href="/images/fullsize/imageheight.png">
 <img src="/images/imageheight.png" title="image height" alt="alt title"/>
 </a>
@@ -114,8 +113,6 @@ myproject.uproject
 ### Confirm CineCameraActor is updating
 
 - Now in your project click on CineCameraActor. The window showing the actual focal length of the lens. If it matches, everything is configured.
-![CineCameraActor](/images/cinecameraactor.png)
-
 <img src="/images/cinecameraactor.png" title="cine camera actor" alt="alt title"/>
 
 - If the film back settings don't match, you can update them
