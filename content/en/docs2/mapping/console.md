@@ -27,7 +27,7 @@ In Windows, look at Device Manager for the COM port and remember that number for
 
 In MAC, open terminal and type
 
-``` ls /dev/tty.*```
+```ls /dev/tty.*```
 
 It will respond with a list of devices, look for
 

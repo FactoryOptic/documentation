@@ -20,4 +20,3 @@ The best way to check is to set the primary lens at a mark, say T4. Then confirm
 ## Booting up with maps
 
 Once a map has been uploaded, it will be enabled, unless you disable it. When the device boots with an enabled lens map, it will always use that map, until you replace it or disable the maps.
-

@@ -19,7 +19,11 @@ The SERVO32 in unmapped mode needs no configuration. Be sure to confirm mapping 
 
 ## Unmapped Mode
 
-In Unmapped mode, there isn't much to configure. Generally you want all the MDRs to be the same model so you have one-to-one lens motors. For example, if you have an MDR-4 (supports 2 lens motors, iris and focus) as your Primary, you will only be able to command 2 motors per replica MDR. If you have a replica MDR-3 (supports 4 lens motors), Zoom and Aux will not do anything.
+In Unmapped mode, there isn't much to configure. Every iris motor connected to any Replica MDR will exactly match the Primary MDR iris motor position. Same for Focus, Zoom & Aux, if connected.
+
+Here it is critical to use the same model lenses with identical lens barrels.
+
+Generally you want all the MDRs to be the same model so you have one-to-one lens motors. For example, if you have an MDR-4 (supports 2 lens motors, iris and focus) as your Primary, you will only be able to command 2 motors per replica MDR. If you have a replica MDR-3 (supports 4 lens motors), Zoom and Aux will not do anything.
 
 ## Mapped Mode
 
