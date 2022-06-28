@@ -1,7 +1,7 @@
 ---
 title: "How to Update"
-description: "Updating firmware on Syncro-Link Mark Zero."
-lead: "Updating firmware on Syncro-Link Mark Zero."
+description: "Updating firmware on SYNCRO-LINK MARK ZERO."
+lead: "Updating firmware on SYNCRO-LINK MARK ZERO."
 date: 2020-11-12T13:26:54+01:00
 lastmod: 2020-11-12T13:26:54+01:00
 draft: false

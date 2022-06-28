@@ -1,38 +1,24 @@
 [[docs]]
-  name = "Prologue"
+  name = "MARK ZERO Intro"
   weight = 10
-  identifier = "prologue"
+  identifier = "docs"
   url = "/docs/prologue/"
 
-[[docs]]
-  name = "Getting Started"
-  weight = 20
-  identifier = "gettingstarted"
-  url = "/docs/gettingstarted/"
-
-[[docs]]
-  name = "Serial Interface"
-  weight = 30
-  identifier = "serialinterface"
-  url = "/docs/serialinterface/"
-
-
-[[docs]]
-  name = "Network Interface"
-  weight = 40
-  identifier = "networkinterface"
-  url = "/docs/networkinterface/"
-
-[[docs]]
-  name = "Help"
-  weight = 50
-  identifier = "help"
-  url = "/docs/help/"
+[[docs2]]
+  name = "SERVO32 Intro"
+  weight = 60
+  identifier = "docs2"
+  url = "/docs2/"
 
 [[main]]
-  name = "Docs"
+  name = "MARK ZERO"
   url = "/docs/prologue/introduction/"
   weight = 9
+
+[[main]]
+  name = "SERVO32"
+  url = "/docs2/docs2_intro/"
+  weight = 10
 
 
 [[social]]

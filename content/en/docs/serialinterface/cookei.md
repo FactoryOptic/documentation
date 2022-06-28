@@ -15,7 +15,7 @@ toc: true
 
 ### Cooke /i & /i squared
 
-Cooke metadata collected by Syncro-Link will include the following CORE metadata dynamic values:
+Cooke metadata collected by SYNCRO-LINK will include the following CORE metadata dynamic values:
 
     Focal Length
     Focus Distance
@@ -51,4 +51,4 @@ The newest Cooke /i cubed data now includes the following:
 
 ### Interface
 
-Syncro-Link connects to lenses with external Cooke /i metadata ports. Lenses with Cooke /i metadata will have a Lemo 4-pin connector.
+SYNCRO-LINK connects to lenses with external Cooke /i metadata ports. Lenses with Cooke /i metadata will have a Lemo 4-pin connector.
