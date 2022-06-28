@@ -38,7 +38,7 @@ Channel mapping is when you set the relationship between the Replicas and their 
 
 If your setup only includes iris motors, then all Replica motors will map to motor 1.
 
-### Mistached MDRs
+### Mismatched MDRs
 
 With mapping, you can map any lens motor connected to your Replica MDRs to any primary lens motor. This allows you to use MDR-2, MDR-3 and MDR-4 all in the same system.
 
@@ -48,7 +48,7 @@ With mapping, you can achieve precise matching of lens marks even if you have le
 
 ### Mismatched lenses
 
-With mapping, you can configure your system to use any lens you wish. Sometimes, a fisheye lense is added to the array. You can map it so it matches your other lenses. Also, you can map lenses with different lens speeds. If your set has a variety of lenses, for example T1.8, T2.0, T2.8, the mapping can accomidate this so you can set your lens to T2.8 and they all will be T2.8.
+With mapping, you can configure your system to use any lens you wish. Sometimes, a fisheye lense is added to the array. You can map it so it matches your other lenses. Also, you can map lenses with different lens speeds. If your set has a variety of lenses, for example T1.8, T2.0, T2.8, the mapping can accommodate this so you can set your lens to T2.8 and they all will be T2.8.
 
 ### Choosing your primary
 

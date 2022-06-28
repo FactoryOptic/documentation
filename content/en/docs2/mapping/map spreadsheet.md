@@ -27,7 +27,7 @@ Choosing the primary lens is important if you have mis-matched lens setup. Ideal
 
 Any MDR will work as a primary.
 
-Avoid MDR-2 if possible, as the upate rate is not as fast.
+Avoid MDR-2 if possible, as the update rate is not as fast.
 
 If you have mixed MDR-3 and MDR-4 in your setup and only mapping iris, best to choose the MDR-4 as your primary to make maximum use of your motor ports.
 

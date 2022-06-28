@@ -46,7 +46,7 @@ Preston normalizes their motor positions as a 16 bit unsigned value, in other wo
 
 Motor span is the actual motor encoder counts from end stop to end stop. This will vary from lens to lens as well as from lens motor to lens motor. This would be the raw range of motor positions, can could be less than 65535 or it could be much greater than 65535.
 
-Motor span is not reported to the user, but it should be understood that you will always have 16 bits of motor posision to work with. But any sloppyness in the setup could result in increased motor span, which may make your maps less accurate, especially if your mapping setup differs from your setup on the day.
+Motor span is not reported to the user, but it should be understood that you will always have 16 bits of motor position to work with. But any sloppiness in the setup could result in increased motor span, which may make your maps less accurate, especially if your mapping setup differs from your setup on the day.
 
 ### Importance of proper lens motor setup
 
@@ -62,7 +62,7 @@ Once you have your barrel mark list and your lens motor setup, begin the process
 
 Using the Preston Hand Unit, drive the motor to the mark. Always approach the mark slowly and from the same direction. When the barrel mark lines up with the witness mark, record the motor position. Repeat for all marks.
 
-It's important to hit the marks accuratly in the region you plan on using. If your are planning on being in a 4 - 5.6, then those marks are important.
+It's important to hit the marks accurately in the region you plan on using. If your are planning on being in a 4 - 5.6, then those marks are important.
 
 ### Marks of a different name or unit
 
@@ -84,9 +84,9 @@ If your lens is missing marks at the end, for example, T16 is the last mark, use
 
 #### Example of mis-matched lenses
 
-Here we have maps of a Panavision Primo 21mm T1.9 and a Panavision Super Speed 24mm T2, which has doens't have a T22 mark. For the 24mm, the T1.9 value has been set as 0 and the T22 is set at 65535.
+Here we have maps of a Panavision Primo 21mm T1.9 and a Panavision Super Speed 24mm T2, which has doesn't have a T22 mark. For the 24mm, the T1.9 value has been set as 0 and the T22 is set at 65535.
 
-The Lens maps would line up like this. Between T2 and T16, the marks will hit everytime. Under T2, the 24mm will stay at T2.
+The Lens maps would line up like this. Between T2 and T16, the marks will hit every time. Under T2, the 24mm will stay at T2.
 
 | Barrel Mark | Panavision Primo 21mm (Primary) | Panavision 24mm Lens (Replica) |
 | ----------- | ------------------- | ------------------- |

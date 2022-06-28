@@ -31,6 +31,6 @@ Using mapped mode will give you the flexibility to configure your system anyway 
 
 ### Mismatched Lenses
 
-Mapping allows seemless integration of any MDR and any lens. A properly mapped system will always hit the witness marks you set on your hand unit.
+Mapping allows seamless integration of any MDR and any lens. A properly mapped system will always hit the witness marks you set on your hand unit.
 
 You now have the freedom to match up lenses that are not identical.

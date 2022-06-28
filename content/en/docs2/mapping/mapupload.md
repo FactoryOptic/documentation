@@ -45,7 +45,7 @@ Hit apply
 
 At this point, your map has been uploaded.
 
-If you edit any values in the table, it will immediatly re-upload the new map on every edit. This is a great way to tweak your points if they are slightly off.
+If you edit any values in the table, it will immediately re-upload the new map on every edit. This is a great way to tweak your points if they are slightly off.
 
 ### Disconnect Device
 

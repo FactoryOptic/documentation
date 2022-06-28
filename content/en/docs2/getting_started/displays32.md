@@ -30,7 +30,7 @@ The SERVO32 has an onboard OLED display that displays useful information. You ca
 - For each MDR port, will show the type of MDR connected
   - Unconnected ports will show ---
 
-### Page 2 - MDR Firmwre version
+### Page 2 - MDR Firmware version
 
 <img src="/images/s32/displaypg02.png" title="SERVO32 Display page 2" alt="alt title"/>
 

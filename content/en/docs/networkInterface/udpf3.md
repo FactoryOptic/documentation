@@ -16,7 +16,7 @@ toc: true
 ### F3 Protocol
 
 SYNCRO-LINK 0xF3 STREAMING DATAGRAM FORMAT
-Codeveloped with LOLED Virtual for use with their open source Unreal Engine Plugin
+Co-developed with LOLED Virtual for use with their open source Unreal Engine Plugin
 
 UDP Destination Port Number: user configurable
 UDP Payload: Fields

@@ -15,7 +15,7 @@ toc: true
 
 <img src="/images/s32/s32firmware.png" title="SERVO32 Display showing firmware" alt="alt title"/>
 
-## Preston MDR Compatability
+## Preston MDR Compatibility
 
 All MDRs have one or two Serial connections.
 
@@ -31,6 +31,6 @@ Versions newer than shown here should be avoided until tested.
 
 Note: Some MDR-3s (1st Gen, prior to mid 2019) will only connect to SERVO32 on one port. Be sure to try both ports.
 
-## Lens Motor Compabibilty
+## Lens Motor Compatibility
 
 Any lens motor that works with your MDR will work with SERVO32
