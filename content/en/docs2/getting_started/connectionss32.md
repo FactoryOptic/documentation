@@ -24,6 +24,7 @@ toc: true
   - Connector is Lemo 2-Pin OB
   - 8-32VDC input @ 4W max
   - Input is protected from reverse polarity and has resettable fuse
+  - Wired to Preston Polarity Standard
 - Micro USB
   - For console use
 
@@ -40,5 +41,5 @@ toc: true
 
 | EGG.0B.302 | Signal |
 | ---------- | ------ |
-| Pin 1 | +12V |
-| Pin 2 | 0V |
+| Pin 1 | Ground |
+| Pin 2 | +8~32VDC |
