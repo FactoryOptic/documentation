@@ -19,7 +19,7 @@ The SERVO32 has an onboard OLED display that displays useful information. You ca
 
 ### All Pages
 
-<img src="/images/syncrolink_page1.png" title="Syncrolink OLED page 1" alt="alt title"/>
+<img src="/images/s32/displaypg01.png" title="SERVO32 Display page 1" alt="alt title"/>
 
 - All pages will show the the following on the top bar
   - SERVO32 Firmware Version
@@ -32,24 +32,28 @@ The SERVO32 has an onboard OLED display that displays useful information. You ca
 
 ### Page 2 - MDR Firmwre version
 
-<img src="/images/syncrolink_page3.png" title="Syncrolink OLED page 3" alt="alt title"/>
+<img src="/images/s32/displaypg02.png" title="SERVO32 Display page 2" alt="alt title"/>
 
 - For each MDR port, will show the firmware version reported by the MDR
 
 ### Page 3 MDR Motor Positions
 
-<img src="/images/syncrolink_page4.png" title="Syncrolink OLED page 4" alt="alt title"/>
+<img src="/images/s32/displaypg03.png" title="SERVO32 Display page 3" alt="alt title"/>
 
 - For each MDR port, will show the motor positions
 
 ### Page 4 Primary MDR Motor Positions
 
-<img src="/images/syncrolink_page4.png" title="Syncrolink OLED page 4" alt="alt title"/>
+<img src="/images/s32/displaypg04.png" title="SERVO32 Display page 4" alt="alt title"/>
 
 - For each motor, shows the motor position
 
 ### Pages 5+ Replica MDR Motor Positions
 
-<img src="/images/syncrolink_page4.png" title="Syncrolink OLED page 4" alt="alt title"/>
+<img src="/images/s32/displaypg05.png" title="SERVO32 Display page 5+ Connected" alt="alt title"/>
 
-- For each motor, shows the motor position
+- For each motor, shows the motor position and the Servo Channel Number
+
+<img src="/images/s32/displaypg06.png" title="SERVO32 Display page 5+ Unconnected" alt="alt title"/>
+
+- Channels without any connected MDRs will not display motor positions

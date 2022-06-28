@@ -13,6 +13,8 @@ weight: 350
 toc: true
 ---
 
+<img src="/images/s32/s32firmware.png" title="SERVO32 Display showing firmware" alt="alt title"/>
+
 ## Preston MDR Compatability
 All MDRs have one or two Serial connections.
 

@@ -64,15 +64,17 @@ If lens is missing marks at the closed end of iris, like T16, do your best to gu
 #### Marks missing on the minimum end
 If your table has marks that the lens can't hit, just put in 0.
 
-For example, your set has lenses with T1.9 and T2.0, The T2.0 lens value for T1.9 would be 0.
+For example, your set has lenses with T1.9 and T2, The T2 lens value for T1.9 would be 0.
 
 #### Marks missing on the minimum end
 If your lens is missing marks at the end, for example, T16 is the last mark, use 65535 for entry on T22.
 
 #### Example of mis-matched lenses
-Here we have maps of a Panavision Primo 21mm T1.9 and a Panavision Super Speed 24mm T2.0, which has doens't have a T22 mark. You can see the T1.9 mark set as 0 and the T22 is set at 65535.
+Here we have maps of a Panavision Primo 21mm T1.9 and a Panavision Super Speed 24mm T2, which has doens't have a T22 mark. For the 24mm, the T1.9 value has been set as 0 and the T22 is set at 65535.
 
-| Barrel Mark | T1.9 Lens Positions | T2.0 Lens Positions |
+The Lens maps would line up like this. Between T2 and T16, the marks will hit everytime. Under T2, the 24mm will stay at T2.
+
+| Barrel Mark | Panavision Primo 21mm (Primary) | Panavision 24mm Lens (Replica) |
 | ----------- | ------------------- | ------------------- |
 | MIN  | 0 | 0 |
 | T1.9 | 2553 | 0 |
@@ -85,3 +87,11 @@ Here we have maps of a Panavision Primo 21mm T1.9 and a Panavision Super Speed 2
 | T16 | 55957 | 65337 |
 | T22 | 64206 | 65535 |
 | MAX | 65535 | 65535 |
+
+<img src="/images/s32/panavisionprimo.png" title="Panavision Primo Lens" alt="alt title"/>
+
+- Panavision Primo 21mm Lens with T1.9 - T22
+
+<img src="/images/s32/panavision24mm.png" title="Panavision 24mm Lens" alt="alt title"/>
+
+- Panavision 24mm Lens with T2 - T16

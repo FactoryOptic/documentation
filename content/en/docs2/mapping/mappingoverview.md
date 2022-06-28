@@ -1,7 +1,7 @@
 ---
 title: "Mapping Overview"
 description: "Configure SERVO32"
-lead: "Configure SERVO32"
+
 date: 2020-10-06T08:49:31+00:00
 lastmod: 2020-10-06T08:49:31+00:00
 draft: false
@@ -12,6 +12,8 @@ menu:
 weight: 310
 toc: true
 ---
+
+For the most part, arrays tend to use identical lenses and mapping is not typically required. But when you encounter lenses not matching perfectly, mapping is the best way to dial in lenses and match them perfectly.
 
 ## Lens Mapping
 Lens mapping is the process of creating a simple table for lens marks to motor positions. Below is an example map of an iris barrel.
