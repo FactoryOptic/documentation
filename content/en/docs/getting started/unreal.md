@@ -21,7 +21,8 @@ The SYNCRO-LINK MARK-ZERO makes use of the LONET-Unreal-Plugin created by Andy J
 - Create a directory named 'Plugins' in your Unreal project folder, if it doesn't already exist
 - Unzip the file to the \Plugins directory
 
-```Unreal Projects
+```text
+Unreal Projects
 myproject.uproject
 └───Plugins
 │   └─── LONETClient1.7

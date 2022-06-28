@@ -23,7 +23,8 @@ In the SD card is a folder named 'config'. Inside this folder is the config file
 
 A fresh copy of the SD Card can be found [here](https://github.com/FactoryOptic/syncrolinkSDCard)
 
-```plaintext
+```text
+plaintext
 sd card
 |   readme.md #this file
 +---config

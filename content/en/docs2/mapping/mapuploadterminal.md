@@ -21,7 +21,7 @@ If successful, you will see that mapping is now enabled.
 
 Otherwise, you may see something like this, which tells you the map you are pasting is corrupt or malformed. If you see this, double check the spreadsheet. Start from a fresh copy of the mapping spreadsheet if needed.
 
-```
+```text
 [Motor Map] Error: Primary Channel [1] array size [1] out of bounds (3 - 16)
 [Motor Map] Error: Primary Channel [1] min array value != 0) )
 [Motor Map] Error: Primary Channel [1] max array value != 65535) )

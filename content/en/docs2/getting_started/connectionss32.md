@@ -13,7 +13,7 @@ weight: 315
 toc: true
 ---
 
-#### Connect SERVO32
+## Connect to SERVO32
 
 - Preston Serial, ports 1 - 8
   - Connector is Lemo 4-Pin OB
@@ -27,7 +27,7 @@ toc: true
 - Micro USB
   - For console use
 
-### SERVO32 Serial Cables
+## SERVO32 Serial Cables
 
 | EGG.0B.304 | EGG.0B.304 |
 | ---------- | ---------- |
@@ -36,8 +36,7 @@ toc: true
 | Pin 3 | Pin 3 |
 | Pin 4 | Pin 4 |
 
-
-### SERVO32 Power Cable
+## SERVO32 Power Cable
 
 | EGG.0B.302 | Signal |
 | ---------- | ------ |

@@ -13,7 +13,7 @@ weight: 330
 toc: true
 ---
 
-### SERVO32 Display
+## SERVO32 Display
 
 The SERVO32 has an onboard OLED display that displays useful information. You can cycle thru the displays using the side mounted encoder knob.
 

@@ -14,8 +14,10 @@ toc: true
 ---
 
 ## Checking lens maps
+
 The best way to check is to set the primary lens at a mark, say T4. Then confirm all lenses are hitting the same mark. Check at a couple of marks.
 
 ## Booting up with maps
+
 Once a map has been uploaded, it will be enabled, unless you disable it. When the device boots with an enabled lens map, it will always use that map, until you replace it or disable the maps.
 
