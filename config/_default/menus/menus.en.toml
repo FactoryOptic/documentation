@@ -16,7 +16,6 @@
   identifier = "serialinterface"
   url = "/docs/serialinterface/"
 
-
 [[docs]]
   name = "Network Interface"
   weight = 40
@@ -29,10 +28,22 @@
   identifier = "help"
   url = "/docs/help/"
 
+[[docs2]]
+  name = "docs2"
+  weight = 60
+  identifier = "docs2"
+  url = "/docs2/"
+
+
 [[main]]
-  name = "Docs"
+  name = "Mark Zero"
   url = "/docs/prologue/introduction/"
   weight = 9
+
+[[main]]
+  name = "Servo32"
+  url = "/docs2/docs2_test/"
+  weight = 10
 
 
 [[social]]
