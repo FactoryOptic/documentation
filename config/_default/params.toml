@@ -21,7 +21,7 @@ twitterSite = "@factoryoptic"
 ## JSON-LD
 # schemaType = "Person"
 schemaType = "Organization"
-schemaName = "doks"
+schemaName = "Doks"
 schemaAuthor = "FACTORY OPTIC"
 schemaAuthorTwitter = "https://twitter.com/factoryoptic"
 schemaAuthorLinkedIn = "https://www.linkedin.com/in/factoryoptic/"
@@ -74,6 +74,9 @@ docsRepoSubPath = ""
 editPage = false
 lastMod = false
 
+[sections]
+  sectionNav = ["docs", "guides"]
+
 [options]
   lazySizes = true
   clipBoard = true
@@ -87,8 +90,10 @@ lastMod = false
   multilingualMode = false
   docsVersioning = false
   fullWidth = false
+  navbarSticky = true
 
 [menu]
   [menu.section]
     auto = true
     collapsibleSidebar = true
+    mainSections = ["docs", "tutorial"]
