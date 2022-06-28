@@ -1,7 +1,7 @@
 ---
 title: "Display"
-description: "The Syncro-Link Mark Zero Display."
-lead: "The Syncro-Link Mark Zero Display."
+description: "The SYNCRO-LINK MARK ZERO Display."
+lead: "The SYNCRO-LINK MARK ZERO Display."
 date: 2020-10-06T08:49:31+00:00
 lastmod: 2020-10-06T08:49:31+00:00
 draft: false

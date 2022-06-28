@@ -15,7 +15,7 @@ toc: true
 
 ### FreeD
 
-With XD or Cooke /i lenses, Syncro-Link will send FreeD packets containing zoom, focus and iris as scaled integers as follows
+With XD or Cooke /i lenses, SYNCRO-LINK will send FreeD packets containing zoom, focus and iris as scaled integers as follows
 
     zoom focal length (24 bits) as focal length in mm x 64
     focus distance (24 bits) as focus distance in mm x 64
@@ -25,7 +25,7 @@ For example, FreeD will send zoom as 1792 when actual focal length is 28mm.
 
 All camera position tracking fields will be sent as zeros.
 
-### Configure Syncro-Link Mark-Zero for streaming FreeD
+### Configure SYNCRO-LINK Mark-Zero for streaming FreeD
 
 On the micro-SD card, there is a config file for user selecting the streaming format.
 
@@ -41,4 +41,4 @@ Below is an example stream.txt file
 
 Be sure to setup dest.txt for destination IP and port that is receiving packets, see  [configuration](/docs/gettingstarted/configuration/)
 
-Note: Syncro-Link must be on firmware v0.3.2 or later
+Note: SYNCRO-LINK must be on firmware v0.3.2 or later

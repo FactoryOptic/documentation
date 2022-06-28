@@ -23,4 +23,4 @@ Delete the files on the SD card and install fresh from [github](https://github.c
 
 ## Network Issues
 
-Syncro-Link can operate on any network, with our without a router. DHCP is supported, but STATIC is recommended.
+SYNCRO-LINK can operate on any network, with our without a router. DHCP is supported, but STATIC is recommended.

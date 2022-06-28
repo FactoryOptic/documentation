@@ -1,7 +1,7 @@
 ---
 title: "Configuration"
-description: "Configure Syncro-Link Mark Zero."
-lead: "Configure Syncro-Link Mark Zero."
+description: "Configure SYNCRO-LINK MARK ZERO."
+lead: "Configure SYNCRO-LINK MARK ZERO."
 date: 2020-10-06T08:49:31+00:00
 lastmod: 2020-10-06T08:49:31+00:00
 draft: false

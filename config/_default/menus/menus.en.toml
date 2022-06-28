@@ -1,5 +1,5 @@
 [[docs]]
-  name = "Mark Zero Intro"
+  name = "MARK ZERO Intro"
   weight = 10
   identifier = "docs"
   url = "/docs/prologue/"
@@ -11,7 +11,7 @@
   url = "/docs2/"
 
 [[main]]
-  name = "Mark Zero"
+  name = "MARK ZERO"
   url = "/docs/prologue/introduction/"
   weight = 9
 

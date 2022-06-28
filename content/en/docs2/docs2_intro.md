@@ -15,7 +15,7 @@ toc: true
 
 ## Introduction
 
-Factory Optic's Syncro-Link SERVO32 is a device that allows you to connect up to 8 Preston Cinema MDRs, thereby giving you control of up to 32 lens motors with a single Hand Unit.
+Factory Optic's SYNCRO-LINK SERVO32 is a device that allows you to connect up to 8 Preston Cinema MDRs, thereby giving you control of up to 32 lens motors with a single Hand Unit.
 
 <img src="/images/SERVO32WIRING.png" title="Wiring Diagram" alt="alt title"/>
 

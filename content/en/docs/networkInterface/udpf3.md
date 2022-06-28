@@ -145,7 +145,7 @@ Notes
 
 v0.1.0-2021-06-01
 
-### Configure Syncro-Link Mark-Zero for streaming F3 packets
+### Configure SYNCRO-LINK Mark-Zero for streaming F3 packets
 
 On the micro-SD card, there is a config file for user selecting the streaming format.
 

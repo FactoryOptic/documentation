@@ -18,7 +18,7 @@ toc: true
 - Download the latest plugin (1.7.0 or newer) from LOLED VIRTUAL'S Github site: [https://loledvirtual.com/documentation/docs/unrealreleases/](https://loledvirtual.com/documentation/docs/unrealreleases/)
 - See [Unreal](/docs/gettingstarted/unreal/) for how to setup and configure
 
-### Configure Syncro-Link Mark-Zero for streaming to LONET
+### Configure SYNCRO-LINK Mark-Zero for streaming to LONET
 
 On the micro-SD card, there is a config file for user selecting the streaming format.
 
