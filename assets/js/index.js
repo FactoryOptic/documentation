@@ -94,7 +94,9 @@ Source:
 
   // https://discourse.gohugo.io/t/range-length-or-last-element/3803/2
 
-  {{ $list := (where .Site.Pages "Section" "docs") -}}
+  // {{ $list := (where .Site.Pages "Section" "docs") -}}
+  {{ $list := where site.RegularPages "Type" "in" site.Params.mainSections -}}
+
   {{ $len := (len $list) -}}
 
   {{ range $index, $element := $list -}}

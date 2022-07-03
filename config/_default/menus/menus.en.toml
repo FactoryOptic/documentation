@@ -10,6 +10,12 @@
   identifier = "docs2"
   url = "/docs2/"
 
+[[docs3]]
+  name = "QuickTC"
+  weight = 80
+  identifier = "docs3"
+  url = "/docs3/"
+
 [[main]]
   name = "MARK ZERO"
   url = "/docs/prologue/introduction/"
@@ -17,9 +23,13 @@
 
 [[main]]
   name = "SERVO32"
-  url = "/docs2/docs2_intro/"
+  url = "/docs2/servo32/"
   weight = 10
 
+[[main]]
+  name = "QuickTC"
+  url = "/docs3/quicktc/"
+  weight = 11
 
 [[social]]
   name = "Twitter"
