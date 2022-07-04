@@ -28,21 +28,3 @@ QuickTC will automatically turn on when it detects a possible LTC signal.
 ### USB-C Input
 
 The USB-C connector is power input only. It is used for battery charging, and can also power the QuickTC for long-term use.
-
-QuickTC will turn ON when USB power is connected or disconnected.
-
-#### USB-C to USB-C Cable
-
-QuickTC works with any standard USB-C to USB-C cable, power-only or power + data.
-
-#### USB-A to USB-C Cable
-
-QuickTC works with any standard USB-A to USB-C cable that has power.
-
-### USB Power Adapter or USB Host
-
-Any standard USB Power Adapter or Host that can provide 5V @ 2.5W or higher should work.
-
-QuickTC is USB-C compliant and will work with any USB-C compliant host or power adapter, including high power adapters.
-
-Note: there will be no USB-C data connection to a USB Host.

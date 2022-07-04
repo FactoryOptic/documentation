@@ -13,13 +13,25 @@ weight: 321
 toc: true
 ---
 
-The QuickTC in unmapped mode needs no configuration. Be sure to confirm mapping is disabled.
+The QuickTC is simple to use
 
-<img src="/images/s32/s32overview.png" title="QuickTC In Action" alt="alt title"/>
+## Power ON
 
-## Plug it in to timecode
+### USB Power
+
+Connecting USB Power will always power on the QuickTC.
+
+### Plug it in to timecode
 
 When you connect timecode to the BNC, the QuickTC will power on and readout timecode.
+
+Note: Battery capacity must be at least 5%.
+
+### Press Pushbutton Display
+
+A quick press of the pushbutton display will turn the device on.
+
+Note: Battery capacity must be at least 5%.
 
 ## Disconnect to power off
 
@@ -43,3 +55,5 @@ QuickTC has 2 flash modes of heartbeat
 
 1. With valid timecode connected, the heartbeat LED will flash once per second for the duration of the first frame. This indicates valid timecode and allows you to use multiple QuickTCs to visually confirm TC sync at multiple locations.
 2. When no valid timecode is connected and device is ON, the heartbeat LED will double flash about once per second.
+
+<img src="/images/qtc/qtcusb.jpg" title="QuickTC Heartbeat" alt="alt title"/>

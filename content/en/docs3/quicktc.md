@@ -15,6 +15,8 @@ toc: true
 
 ## Introduction
 
+<img src="/images/qtc/qtcrender1.png" title="QuickTC" alt="alt title"/>
+
 Factory Optic's SYNCRO-LINK QuickTC is a portable tool for working with SMPTE timecode that gives you the ability to quickly verify and debug all aspects of timecode
 
 * Quickly confirm you are receiving timecode
@@ -32,4 +34,3 @@ Features include
 * Device can stay in your toolbox for 1 year before needing recharge
 * Pushbutton display to turn on device and cycle thru the readout pages
 * Lanyard/Loop/strap attachment
-
