@@ -12,6 +12,8 @@ weight: 310
 toc: true
 ---
 
+For the most part, arrays tend to use identical lenses and mapping is not typically required. However, when you encounter mismatched lenses, mapping allows you to use MDR-2, MDR-3 and MDR-4 all in the same system.
+
 ## Set up SERVO32 for mapping
 
 Using a USB Micro cable, connect the SERVO32 to your computer via USB. You can connect to SERVO32 with any serial terminal app to upload maps, check maps, and disable mapping.
@@ -58,8 +60,6 @@ Type 'h' for help
 ```
 
 For a list of commands, type ```h```
-
-For the most part, arrays tend to use identical lenses and mapping is not typically required. However, when you encounter mismatched lenses, mapping allows you to use MDR-2, MDR-3 and MDR-4 all in the same system.
 
 ## Lens Mapping
 
