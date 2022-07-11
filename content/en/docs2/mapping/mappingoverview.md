@@ -14,53 +14,6 @@ toc: true
 
 For the most part, arrays tend to use identical lenses and mapping is not typically required. However, when you encounter mismatched lenses, mapping allows you to use MDR-2, MDR-3 and MDR-4 all in the same system.
 
-## Set up SERVO32 for mapping
-
-Using a USB Micro cable, connect the SERVO32 to your computer via USB. You can connect to SERVO32 with any serial terminal app to upload maps, check maps, and disable mapping.
-
-### Windows
-
-In Windows, look at Device Manager for the COM port and remember that number for later. 
-Download a serial terminal, [PuTTY](https://www.putty.org) is a good option.
-
-### Mac 
-In Mac, open Terminal and type
-
-```ls /dev/tty.*```
-
-It will respond with a list of devices, look for
-
-```/dev/tty.usbserial-132150```
-
-Download a serial terminal, [SerialTools](https://apps.apple.com/us/app/serialtools/id611021963) is a good option. 
-
-
-### Serial Terminal Settings (115200/8-N-1)
-
-- Baud Rate: 115200
-- Data Bits: 8
-- Parity: None
-- Stop Bits: 1
-
-### Console Commands
-
-When connected, type ? and hit enter, it should respond with info on mapping, as well as which MDRs are connected.
-
-```text
-Mapping is disabled
-MDR[01] = MDR-3
-MDR[02] = MDR-2
-MDR[03] =
-MDR[04] =
-MDR[05] =
-MDR[06] =
-MDR[07] =
-MDR[08] =
-Type 'h' for help
-```
-
-For a list of commands, type ```h```
-
 ## Lens Mapping
 
 Lens mapping is the process of creating a simple table for lens marks to motor positions. Below is an example map of an iris barrel.
