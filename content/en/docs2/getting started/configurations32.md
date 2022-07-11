@@ -50,6 +50,9 @@ In order to connect the SERVO32 and additional components, use the following con
 | Pin 1 | Ground |
 | Pin 2 | +8~32VDC |
 
+### Additional Settings
+
+Click to learn more about the display settings (link), MDR settings (link), Preston compatibility (link) or versions (link). 
 
 ## Mapped Mode
 
