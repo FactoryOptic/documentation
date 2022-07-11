@@ -1,5 +1,5 @@
 ---
-title: "Setting up a lens map"
+title: "Save the lens map"
 description: "Configure SERVO32"
 date: 2020-10-06T08:49:31+00:00
 lastmod: 2020-10-06T08:49:31+00:00
@@ -12,7 +12,9 @@ weight: 330
 toc: true
 ---
 
-## Creating a lens map
+Now that you have tested the marks with your motor values (link to lens mapping/choose lens mapping points page), you will save the lens map.
+
+## Saving a lens map in Excel
 
 Make your lens maps using this Excel file as a template (file download link). It is important to only use commands Copy & Paste, instead of Cut & Paste, to avoid corrupting the map export. Don't touch the non-yellow cells. Sections in yellow are for the user to fill out as follows:
 
