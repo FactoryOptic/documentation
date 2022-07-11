@@ -65,6 +65,15 @@ For a list of commands, type ```h```
 
 In the Excel spreadsheet, on the ```Table``` tab, the first cell, A1 contains the table as a string of numbers, comma separated. Copy this cell and paste into the terminal.
 
+
+# Checking lens maps
+
+The best way to check is to set the primary lens at a mark, say T4. Then confirm all lenses are hitting the same mark. Check at a couple of marks.
+
+## Booting up with maps
+
+Once a map has been uploaded, it will be enabled, unless you disable it. When the device boots with an enabled lens map, it will always use that map, until you replace it or disable the maps.
+
 If successful, you will see that mapping is now enabled.
 
 Otherwise, you may see something like this, which tells you the map you are pasting is corrupt or malformed. If you see this, double check the spreadsheet. Start from a fresh copy of the mapping spreadsheet if needed.
