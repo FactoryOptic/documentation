@@ -1,5 +1,5 @@
 ---
-title: "Motor Channels"
+title: "MDR Motor Settings"
 description: "Motors, numbers and ports"
 lead: "Motors, numbers and ports"
 date: 2020-10-06T08:49:31+00:00
@@ -13,13 +13,10 @@ weight: 360
 toc: true
 ---
 
-## MDRs
 
-Each MDR can have 2, 3 or 4 motors
+## MDR Motors
 
-## MDR Ports
-
-Each MDR has and Iris and Focus motor at minimum, which are ports 1 - 2. Some MDRs have a Zoom, which is port 3. And MDR-3s have a AUX, which is port 4.
+Each MDR can have 2, 3 or 4 motors, with one motor per port on the SERVO32. Each MDR has an Iris and Focus motor at minimum, which are ports 1 - 2. Some MDRs have a Zoom, which is port 3. And MDR-3s have a AUX, which is port 4.
 
 | MDR Port | Motor Function | Note |
 | -------- | -------------- | ---- |
@@ -36,10 +33,7 @@ Each MDR has and Iris and Focus motor at minimum, which are ports 1 - 2. Some MD
 
 | SERVO32 Motor Channel | MDR | MDR Port |
 | -------- | -------------- | ---- |
-| 1 | #1 Primary | Iris |
-| 2 | #1 Primary | Focus |
-| 3 | #1 Primary | Zoom |
-| 4 | #1 Primary | Aux |
+| 1 - 2 - 3 - 4 | #1 Primary | Iris - Focus - Zoom - Aux |
 | 5 - 6 - 7 - 8 | #2 Replica | Iris - Focus - Zoom - Aux |
 | 9 - 10 - 11 - 12 | #3 Replica | Iris - Focus - Zoom - Aux |
 | 13 - 14 - 15 - 16 | #4 Replica | Iris - Focus - Zoom - Aux |
@@ -48,4 +42,4 @@ Each MDR has and Iris and Focus motor at minimum, which are ports 1 - 2. Some MD
 | 25 - 26 - 27 - 28 | #7 Replica | Iris - Focus - Zoom - Aux |
 | 29 - 30 - 31 - 32 | #8 Replica | Iris - Focus - Zoom - Aux |
 
-- If you have a MDR-2 or MDR-4, you will not be able to use all motor numbers
+- If you have a MDR-2 or MDR-4, you will not be able to use all motor channels.
