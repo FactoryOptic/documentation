@@ -13,6 +13,9 @@ weight: 310
 toc: true
 ---
 
+## Description
+
+For a description of the SERVO32 please see the Description page (link to intro page).
 
 ## Unmapped Mode
 
