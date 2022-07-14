@@ -1,7 +1,7 @@
 ---
-title: "SERVO32 Introduction"
-description: "SERVO32 allows you to control up to 32 lens motors using Preston MDRs with a single handset. Ideal for multicamera setups such as 3D or camera arrays."
-lead: "SERVO32 allows you to control up to 32 lens motors using Preston MDRs with a single handset. Ideal for multicamera setups such as 3D or camera arrays."
+title: "SERVO32 Overview"
+description: "Factory Optic's SYNCRO-LINK SERVO32 is a device that connects up to 8 Preston Cinema MDRs; giving you control of up to 32 lens motors with a single Hand Unit. Ideal for multicamera setups such as 3D or camera arrays."
+lead: "Factory Optic's SYNCRO-LINK SERVO32 is a device that connects up to 8 Preston Cinema MDRs; giving you control of up to 32 lens motors with a single Hand Unit. Ideal for multicamera setups such as 3D or camera arrays."
 date: 2020-10-06T08:48:57+00:00
 lastmod: 2020-10-06T08:48:57+00:00
 draft: false
@@ -13,52 +13,20 @@ weight: 105
 toc: true
 ---
 
-## Introduction
-
-Factory Optic's SYNCRO-LINK SERVO32 is a device that allows you to connect up to 8 Preston Cinema MDRs, thereby giving you control of up to 32 lens motors with a single Hand Unit.
+## Description
+The SERVO32 connects up to 8 MDRs using a single Hand Unit. All MDRs use their serial port to connect to the Primary port (1) and Replica ports (2). The Primary port (1) MDR is connected to the Preston Hand Unit via RF or command cable. Power is provided to the SERVO32 through the MDR connected to the Primary port (1) or through the Optional power port (3). The Optional power port uses a 2-pin Lemo port that can provide power for an MDR-2, which Preston Cinema recommends not powering through the serial port of the MDR. Control of the Primary port is provided by the Hand Unit, of the Replica ports by the SERVO32, and of the Replica ports in Unmapped mode by the MDR at the Primary port. The motors on the MDRs connected to the Replica ports are mapped one-to-one with the motors on the MDR at the Primary port. For example, the Iris motor of the Replica ports will be driven by the value of the Iris motor of the Primary port. Same with Focus, Zoom and AUX motors. The SERVO32 Display (4) will provide status of the MDRs connected and show the motor positions. The Rotary Knob (5) is used for changing the display page on the Display. The USB Micro Connector (5) is used for mapping configuration with the SERVO32 console and is not needed for Unmapped mode. 
 
 <img src="/images/SERVO32WIRING.png" title="Wiring Diagram" alt="alt title"/>
 
-### Primary Port: 1
-
-The Primary port is the MDR that will be connected to the Preston Hand Unit. They should be connected as you normally use them, either via RF or command cable.
-
-This MDR can also provide power to the SERVO32.
-
-SERVO32 will connect to this MDR via the serial port on the MDR. The Servo 32 will communicate with the MDR and constantly query the motor positions. The SERVO32 will not command this MDR to move to motor positions, this will be done by the Preston Hand Unit.
-
-### Replica Ports: 2 - 8
-
-The Replica ports will connect to the additional MDRs, you can connect up to 7. These MDRs will not provide any power to the SERVO32, nor will the SERVO32 provide any power to these MDRs.
-
-These Replica MDRs will be commanded by the SERVO32. In Unmapped mode, they will be commanded with the motor positions sent by the Primary MDR.
-
-The motors on the MDRs will be mapped one-to-one with the primary. For example, the Iris motor of the replicas will be driven by the value of the Iris motor on the primary. Same with Focus, Zoom and AUX motors.
-
-### Optional Power Port
-
-With a MDR-2, Preston Cinema recommends not drawing any power from the serial port. In this case, you can supply power to the SERVO32 on this 2-pin Lemo port.
-
-### Display
-
-The SERVO32 Display will provide status of the MDRs connected, as well as show the motor positions.
-
-### Rotary Knob
-
-The rotary knob is used for changing the display page on the display
-
-### USB Micro Connector
-
-This connector will provide an interface to the SERVO32 console for mapping configuration. For unmapped systems, connecting to the SERVO32 console is not required.
 
 ## Get Started with SERVO32
 
-See [GETTING STARTED](/docs2/getting Started/configurations32/) section for the quick start setup of SERVO32 with Preston Cinema MDR.
+View the quick start setup of the SERVO32 with Preston Cinema MDR at [GETTING STARTED](/docs2/getting Started/configurations32/).
 
 ### Mapping
 
-For advanced setups, use mapping to achieve barrel-mark accuracy across all lenses
+For advanced setups, use mapping to achieve barrel-mark accuracy across all lenses. Read how at [MAPPING]({{/docs2/mapping/mappingoverview}}).
 
 ## Customization
 
-SERVO32 is customizable for your needs. Contact us for modifications and customizations. SERVO32 can be expanded to support an infinite number of motors, challenge us.
+SERVO32 can be expanded to support an infinite number of motors, challenge us with your desired modifications and customizations. 

@@ -17,11 +17,7 @@ toc: true
 
 ## Preston MDR Compatibility
 
-All MDRs have one or two Serial connections.
-
-These are currently the confirmed and tested versions compatible with SERVO32. If you need to upgrade, visit [Preston Cinema](https://prestoncinema.com/downloads/firmware)
-
-Versions newer than shown here should be avoided until tested.
+SERVO32 is currently compatible with the following firmware versions of the MDRs. If you need to upgrade firmware of the MDR, visit [Preston Cinema](https://prestoncinema.com/downloads/firmware). To use firmware versions newer than shown here, please contact Factory Optic.
 
 | MDR | Number of Serial Ports | Firmware Version |
 | --- | ---------------------- | ---------------- |
@@ -29,8 +25,8 @@ Versions newer than shown here should be avoided until tested.
 | MDR-3 | 2 | Firmware v1.144 |
 | MDR-4 | 1 | Firmware v1.065 |
 
-Note: Some MDR-3s (1st Gen, prior to mid 2019) will only connect to SERVO32 on one port. Be sure to try both ports.
+Note: Some MDR-3s (1st Gen, prior to mid 2019) will only connect to SERVO32 on one port. Be sure to try both available ports.
 
 ## Lens Motor Compatibility
 
-Any lens motor that works with your MDR will work with SERVO32
+Any lens motor that works with your MDR will work with SERVO32. 
