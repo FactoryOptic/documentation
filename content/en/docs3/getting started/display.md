@@ -39,7 +39,7 @@ The QuickTC has an onboard OLED display that displays useful information. You ca
 
 - Displays the user bits from the timecode
 
-### Timecode Frame Rate
+### Timecode Framerate
 
 <img src="/images/qtc/qtcpg4.jpg" title="QuickTC Display page 4" alt="alt title"/>
 
