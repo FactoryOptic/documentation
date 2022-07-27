@@ -13,6 +13,10 @@ weight: 100
 toc: true
 ---
 
+<img src="/images/markzeroworkflow.png" title="MARK ZERO Typical Workflow" alt="alt title"/>
+
+The SYNCRO-LINK MARK ZERO connects to Zeiss and Fujinon lenses with ZEISS eXtended Data (XD) technology and provides timecode stamped, frame accurate lens metadata, via PoE. The metadata includes all the Cooke /i metadata as well as lens distortion in OpenCV formats for live feed into virtual production systems or for recording to be used in post.
+
 ### Quick Start
 
 See [GETTING STARTED]({{< relref "Configuration" >}}). section for the quick start setup SYNCRO-LINK with XD Lenses.
