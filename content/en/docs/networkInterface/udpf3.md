@@ -158,4 +158,4 @@ Below is an example stream.txt file
 
     F3
 
-Be sure to setup dest.txt for destination IP and port that is receiving packets, see  [configuration](/docs/gettingstarted/configuration/)
+Be sure to setup dest.txt for destination IP and port that is receiving packets, see [configuration]({{< relref "configuration.md" >}})

@@ -15,4 +15,4 @@ toc: true
 
 ### Contact FACTORY OPTIC for firmware updates and updating instructions
 
-send us a message at {{< email user="crew" domain="factoryoptic.com" >}}
+Contact us [here](https://factoryoptic.com/?page_id=22)

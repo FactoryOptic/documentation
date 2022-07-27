@@ -13,7 +13,7 @@ weight: 470
 toc: true
 ---
 
-### OSC
+### OSC (Open Sound Control)
 
 The OSC packet will be sent as a bundle in the following format
 
@@ -42,6 +42,6 @@ To set the camera ID number, create or edit the file 'cameraid.txt and edit the 
 
     01
 
-Be sure to setup dest.txt for destination IP and port that is receiving packets, see  [configuration](/docs/gettingstarted/configuration/)
+Be sure to setup dest.txt for destination IP and port that is receiving packets, see [configuration]({{< relref "configuration.md" >}})
 
 Note: SYNCRO-LINK must be on firmware v0.3.3 or later

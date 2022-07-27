@@ -39,6 +39,6 @@ Below is an example stream.txt file
 
     D1
 
-Be sure to setup dest.txt for destination IP and port that is receiving packets, see  [configuration](/docs/gettingstarted/configuration/)
+Be sure to setup dest.txt for destination IP and port that is receiving packets, see  [configuration]({{< relref "configuration.md" >}})
 
 Note: SYNCRO-LINK must be on firmware v0.3.2 or later
