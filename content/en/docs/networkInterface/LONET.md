@@ -25,7 +25,7 @@ The pre-compiled plugins can be found on [loledvirtual](https://loledvirtual.com
 
 ### Unreal Engine 5.0 Open Source Plugin from LOLED
 
--  Download the latest plugin (2.4.1 or newer) from LOLED VIRTUAL: [https://loledvirtual.com/documentation/software-downloads/files](https://loledvirtual.com/documentation/software-downloads/files) under /Unreal Plugin/5.0/
+- Download the latest plugin (2.4.1 or newer) from LOLED VIRTUAL: [https://loledvirtual.com/documentation/software-downloads/files](https://loledvirtual.com/documentation/software-downloads/files) under /Unreal Plugin/5.0/
 
 ### Configure SYNCRO-LINK Mark-Zero for streaming to LONET plugin using Live Link
 
