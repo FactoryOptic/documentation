@@ -22,7 +22,7 @@ Factory Optic's SYNCRO-LINK QuickTC is a portable tool for working with SMPTE ti
 * Quickly confirm you are receiving timecode
 * Freeze mode allows you to freeze it so you can read it out and verbally confirm it over intercom/walkie talkie
 * Read out the user bits - now you have a reason to use the user bits
-* Read out the frame rate, including drop frame and non drop frame
+* Shows the framerate or closest match, including drop frame and non drop frame
 * Display the signal voltage peak-to-peak and if it is a valid SMPTE signal
 
 Features include
