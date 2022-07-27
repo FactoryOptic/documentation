@@ -15,11 +15,11 @@ toc: true
 
 ### Quick Start
 
-See [GETTING STARTED](/docs/gettingstarted/configuration/) section for the quick start setup SYNCRO-LINK with XD Lenses.
+See [GETTING STARTED]({{< relref "Configuration" >}}). section for the quick start setup SYNCRO-LINK with XD Lenses.
 
 ## Network Interfaces
 
-SYNCRO-LINK can connect and stream to a variety of [streaming network interfaces](/docs/networkinterface/)
+SYNCRO-LINK can connect and stream to a variety of streaming network interfaces, such as [LONET]({{< relref "LONET" >}}) for streaming into Unreal Engine's Live Link, or open protocols such as [FreeD]({{< relref "freed" >}}) and [OSC]({{< relref "disguiseosc" >}})
 
 ### Reference Guides
 
