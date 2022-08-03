@@ -134,10 +134,9 @@ Notes
 
 4. The OpenCV values provided are normalized for a 36mm x 24mm full-frame sensor. fx and fy are not being streamed as they are dependent on actual pixel pitch.  It is required that the resolution and sensor size values are entered downstream, so fx & fy get updated based on lens focal length, using equations:
 
-    ```plaintext
-    fx = focal length (mm) x horizontal resolution (pixels) / sensor width (mm)
-    fy = focal length (mm) x vertical resolution (pixels) / sensor height (mm)
-    ```
+    `fx = focal length (mm) x horizontal resolution (px) / sensor width (mm)`
+
+    `fy = focal length (mm) x vertical resolution (px) / sensor height (mm)`
 
     Resolution is of the image size being used and sensor size is actual active area of the sensor used to capture at that resolution. It is simpler when the camera is configured such that the video output matches the active area of the sensor. For example, Sony Venice can output 4K at 4096x2160 with sensor active area of 24.3mm x 12.8mm.
 
