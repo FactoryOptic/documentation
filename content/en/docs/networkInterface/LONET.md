@@ -21,7 +21,7 @@ The pre-compiled plugins can be found on [loledvirtual](https://loledvirtual.com
 
 - Download the latest plugin (1.7.0 or newer) from LOLED VIRTUAL: [https://loledvirtual.com/documentation/software-downloads/files](https://loledvirtual.com/documentation/software-downloads/files) under /Unreal Plugin/4.27/
 
-- See [Unreal](/docs/gettingstarted/unreal/) for how to setup and configure
+- See [Unreal]({{< relref "unreal.md" >}}) for how to setup and configure
 
 ### Unreal Engine 5.0 Open Source Plugin from LOLED
 
