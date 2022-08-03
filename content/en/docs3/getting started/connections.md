@@ -13,27 +13,33 @@ weight: 315
 toc: true
 ---
 
+<img src="/images/qtc/quicktcinfo.png" title="QuickTC Info" alt="alt title"/>
+
 ## Connecting the QuickTC
 
-Plug the coaxial timecode feed cable into the QuickTC BNC port. The cable should have a single-ended signal per SMPTE ST 12-1:2014. Input is standard 75 ohm BNC and has an input impedance of 10K ohm.
+Plug the coaxial timecode feed cable into the QuickTC BNC port. The cable should have a single-ended signal per SMPTE ST 12-1:2014. The signal should be typical 75 ohms and QuickTC has an input impedance of 10K.
 
-## Powering the QuickTC
+## Powering On the QuickTC
 
-If the coaxial cable is plugged into the BNC port QuickTC will automatically power on and read out timecode when it detects an LTC signal.
+QuickTC has an internal battery that powers the device. When it is off, there are 3 methods to power on.
 
-The USB-C input can also power the QuickTC for long-term use. If the USB-C cable is plugged in, press the OLED display on the right side closest to the BNC port to turn the device on.
+- Pressing the pushbutton OLED will power on the QuickTC.
+- Connecting a valid timecode should power on the QuickTC.
+- Connecting or disconnecting the USB-C cable will power on QuickTC.
 
 Note: Battery capacity must be at least 5% to power on.
 
-### LED Flashing Patterns
+### Heartbeat LED Flashing Patterns
 
-QuickTC has 2 modes of flashing pattern for the LED (located next to the USB-C input, see image):
+QuickTC has 2 modes of flashing pattern for the Heartbeat LED
 
 1. **Valid timecode:** With valid timecode connected, the LED will flash once per second for the duration of the first frame. When using multiple QuickTCs the LED on each QuickTC should flash at the same time to indicate timecode sync.
 2. **Invalid timecode:** Without valid timecode the LED will double flash about once per second.
 
-<img src="/images/qtc/qtcusb.jpg" title="QuickTC Heartbeat" alt="alt title"/>
+### Charge LED
+
+LED is on during charge when USB-C is connected.
 
 ### Powering Off
 
-If QuickTC does not see a valid timecode signal for 10 seconds, it will power off. Alternatively, when disconnected from timecode and not connected via USB-C, QuickTC will automatically power off.
+If QuickTC turns on and does not see a valid timecode signal, it will power off after about 10 seconds. Alternatively, when QuickTC experiences a loss of timecode, QuickTC will automatically power off after 30 seconds.

@@ -18,8 +18,8 @@ Preston normalizes their motor positions as a 16 bit unsigned value in a range f
 
 - The MIN, or minimum value should always be 0.
 - The MAX, or maximum value should always be 65535.
-- Values in the table should always increase from min to max.
-  - If your motor is not increasing, use the MDR switch or button to reverse the motor
+- Values in the table should never decrease from min to max.
+  - If your motor values are not increasing, use the MDR switch/button to reverse the motor direction
 
 ### Note on Motor Span
 
@@ -33,7 +33,7 @@ If you have a flex in your setup, where your lens motor is flexing relative to y
 
 ## Barrel Mark List
 
-Create a list of up to 14 barrel marks that you will map to for iris, focus, or zoom lenses. SERVO32 supports up to 16 data points in the lens map, which easily covers all your iris marks. The first and last data points serve as the min and max, and are not included in the total barrel marks available to map with.
+Create a list of up to 14 barrel marks that you will map to for iris, focus, or zoom lenses. SERVO32 supports up to 16 data points in the lens map, which easily covers all your iris marks. The first and last data points serve as the min and max, which are typically 0 and 65535.
 
 If you have different lenses then in your mapping table fill out one vertical row per lens with the respective lens marks. Say you have 3 mixed lenses with a fastest stops at T2.0, T2.6 and T2.8, then your table should have all 3 of these values. When you do your mapping, you will have to interpolate T2.6 on lenses that don't have that mark, but have T2.0. Do your best to approximate these virtual marks.
 
@@ -41,7 +41,7 @@ If you have different lenses then in your mapping table fill out one vertical ro
 
 Now that you have the motor values and barrel mark list we can test the mapping points for accuracy. Using the Preston Hand Unit, drive the motor to the barrel mark. Always approach the mark slowly and from the same direction. When the barrel mark lines up with the witness mark, record the motor position. Repeat for all marks.
 
-It's important to hit the marks accurately, especially in the region you plan on using. If your are planning on being in a T4 - T5.6, then those marks are important.
+It's important to hit the marks accurately, especially in the region you plan on using. If your are planning on being in a T2.8 - T5.6, then the marks in this range are important, so do your best to record them.
 
 ### Complications with Marks
 
