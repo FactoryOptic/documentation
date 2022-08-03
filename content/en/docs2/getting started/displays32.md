@@ -19,13 +19,13 @@ The SERVO32 has an onboard OLED display that displays useful information. You ca
 All pages will show the following on the top bar:
 
 - SERVO32 Firmware Version (v0.1.10 in the image below)
-- Input voltage provided either by the MDR on the primary port or by the power port (10.9 Vdc in the image). Note, this is the approximate voltage provided by either the 2 pin Lemo or by MDR #1, via the 4 pin Lemo. If both are connected, this will show the highest voltage of the 2 inputs.
+- Input voltage provided either by the MDR on the primary port or by the power port (10.9 VDC in the image). Note, this is the approximate voltage provided by either the 2 pin Lemo or by MDR #1 via the 4 pin Lemo. If both Lemo and MDR are connected this will show the higher voltage of the 2 inputs.
 
 ### Page 1 - MDR Type
 
 <img src="/images/s32/displaypg01.png" title="SERVO32 Display page 1" alt="alt title"/>
 
-For each MDR port, this display will show the type of MDR connected. Unconnected ports will show --- (three dashes)
+For each MDR port this display will show the type of MDR connected. Unconnected ports will show --- (three dashes).
 
 ### Page 2 - MDR Firmware version
 
