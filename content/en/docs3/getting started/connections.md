@@ -15,7 +15,6 @@ toc: true
 
 <img src="/images/qtc/quicktcinfo.png" title="QuickTC Info" alt="alt title"/>
 
-
 ## Connecting the QuickTC
 
 Plug the coaxial timecode feed cable into the QuickTC BNC port. The cable should have a single-ended signal per SMPTE ST 12-1:2014. The signal should be typical 75 ohms and QuickTC has an input impedance of 10K.
