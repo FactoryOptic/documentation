@@ -13,7 +13,7 @@ weight: 360
 toc: true
 ---
 
-## Battery Specs
+### Battery Specs
 
 <img src="/images/qtc/qtccharge.jpg" title="QuickTC Charging" alt="alt title"/>
 
