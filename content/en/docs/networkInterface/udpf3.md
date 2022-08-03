@@ -134,7 +134,7 @@ Notes
 
 4. The OpenCV values provided are normalized for a 36mm x 24mm full-frame sensor. fx and fy are not being streamed as they are dependent on actual pixel pitch.  It is required that the resolution and sensor size values are entered downstream, so fx & fy get updated based on lens focal length, using equations:
 
-    ```
+    ```plaintext
     fx = focal length (mm) x horizontal resolution (pixels) / sensor width (mm)
     fy = focal length (mm) x vertical resolution (pixels) / sensor height (mm)
     ```
