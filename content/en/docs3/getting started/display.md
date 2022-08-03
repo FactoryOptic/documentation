@@ -34,7 +34,6 @@ After 30 seconds in any other mode, QuickTC will automatically return to the Tim
 - Shows the current timecode in standard format
   - Drop frame timecode will display a `;` between the seconds and frames numbers
 - When battery is less than 20%, the battery percentage indicator will show up
-- After 30 seconds in any other mode, QuickTC will automatically return to this mode
 
 ### Timecode Freeze
 

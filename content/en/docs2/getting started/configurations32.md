@@ -13,7 +13,7 @@ weight: 310
 toc: true
 ---
 
-<img src="/images/s32/s32overview.png" title="SERVO32 In Action" alt="alt title"/>
+<img src="/images/s32/servo32labeled.png" title="SERVO32 with labels" alt="alt title"/>
 
 ## Description
 
@@ -55,11 +55,15 @@ The USB Micro-B Connector (12) is used for mapping configuration with the SERVO3
 
 ### SERVO32 Mounting Options
 
+<img src="/images/s32/servo32mechanical.png" title="SERVO32 mechanical drawing" alt="alt title"/>
+
 The SERVO32 can be mounted via the following interfaces (13):
 
 - 3/8-16 threaded hole
-- 1/4-20 threaded holes at 3" on center
-- 1/4-20 clearance hole and slot (1.4" - 1.8")
+- 1/4-20 threaded holes at 3" hole-to-hole spacing
+- 1/4-20 clearance hole and slot
+  - Supports 1" hole-center cheese plate (2 inch)
+  - Supports 9mm hole-center cheese plate (45mm or 54mm)
 - Velcro
 
 ### Wiring Setup
@@ -69,7 +73,7 @@ The SERVO32 can be mounted via the following interfaces (13):
 In order to connect the SERVO32 and additional components, use the following connections:
 
 - Preston Serial, ports 1 - 8 of SERVO32
-  - Connector is Lemo 4-Pin OB
+  - Connector is Lemo 4-Pin 0B
   - Port 1 is the Primary MDR and can provide power to the SERVO32
   - Ports 2-8 are the Replica MDRs, no power is provided or taken on this connector
   - Supports MDR-2, MDR-3 or MDR-4
@@ -87,7 +91,7 @@ Be sure to connect all 4 pins. Even though Replica MDRs won't send power to the 
 
 When connecting DC POWER (optional, recommended when MDR-2 is connected to Primary/Port 1) keep the following in mind:
 
-- Connector is Lemo 2-Pin OB
+- Connector is Lemo 2-Pin 0B
 - 8-32VDC input @ 4W max
 - Input is protected from reverse polarity and has resettable fuse
 - Wired to Preston Polarity Standard
@@ -99,7 +103,7 @@ When connecting DC POWER (optional, recommended when MDR-2 is connected to Prima
 
 ### Additional Settings
 
-Click to learn more about the [display settings]({{< relref "displays32" >}}), [MDR settings]({{< relref "motors" >}}), or [Preston compatibility]({{< relref "prestons32" >}}) .
+Click to learn more about the [display settings]({{< relref "displays32" >}}), [MDR settings]({{< relref "motors" >}}), or [Preston compatibility]({{< relref "prestons32" >}}).
 
 ## Unmapped Mode
 
