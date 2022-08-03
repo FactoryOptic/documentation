@@ -12,7 +12,7 @@ weight: 310
 toc: true
 ---
 
-For the most part, arrays tend to use identical lenses and mapping is not typically required. However, when you encounter mismatched lenses, mapping allows you to use MDR-2, MDR-3 and MDR-4 all in the same system.
+For the most part, arrays tend to use identical lenses and mapping is not required. However, when you encounter mismatched lenses, mapping allows you to use MDR-2, MDR-3 and MDR-4 all in the same system.
 
 ## Lens Mapping
 
@@ -20,16 +20,16 @@ Lens mapping is the process of creating a simple table for lens marks to motor p
 
 | Barrel Mark | Motor Position |
 | ----------- | -------------- |
-| MIN  | 0 |
-| T1.9 | 2553 |
-| T2.8 | 16369 |
-| T4 | 22662 |
-| T5.6 | 31160 |
-| T8 | 39340 |
-| T11 | 47476 |
-| T16 | 55957 |
-| T22 | 64206 |
-| MAX | 65535 |
+| MIN         | 0              |
+| T1.9        | 2553           |
+| T2.8        | 16369          |
+| T4          | 22662          |
+| T5.6        | 31160          |
+| T8          | 39340          |
+| T11         | 47476          |
+| T16         | 55957          |
+| T22         | 64206          |
+| MAX         | 65535          |
 
 With lens mapping, you can achieve precise matching of lens marks even if you have lenses with different barrel mark scales. For example, some lenses are manually marked at the factory during calibration. It's also possible to have 2 lenses with differences in the barrel marks. You will see this on Arri lenses like the Master Primes, which can have different scale classes. Using the SERVO32 with mapping enabled will let you match up lenses that wouldn't match otherwise.
 
@@ -41,4 +41,4 @@ Channel mapping is when you set the relationship between the Replica motors and 
 
 ## Primary Choice
 
-The SERVO32 can handle any configuration of lenses you use, but there are recommendations for configuring your system. Your Primary lens should be the fastest lens, so all others can map to it. In addition, your Primary MDR should be MDR-3 or MDR-4. They are newer generation hardware and have better response update rate which helps your system response. If you have a single Primary lens motor to map your Replicas to, setting the MDR-4 as Primary will avoid unused lens ports.
+The SERVO32 can handle any configuration of lenses you use, but there are recommendations for configuring your system. Your Primary lens should be the fastest lens, so all others can map to it. In addition, your Primary MDR should be MDR-3 or MDR-4. They are newer generation hardware and have better response update rates which helps your system response. If you have a single Primary lens motor to map your Replicas to, setting the MDR-4 as Primary will avoid unused lens ports.

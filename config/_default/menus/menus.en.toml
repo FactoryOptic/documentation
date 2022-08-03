@@ -5,7 +5,7 @@
   url = "/docs/prologue/"
 
 [[docs2]]
-  name = "SERVO32 Intro"
+  name = "SERVO32"
   weight = 60
   identifier = "docs2"
   url = "/docs2/"
