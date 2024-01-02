@@ -43,13 +43,17 @@ myproject.uproject
 ### LiveLink
 
 - Open LiveLink
-  <img src="/images/livelink1.png" title="LiveLink1" alt="alt title"/>
+
+    <img src="/images/livelink1.png" title="LiveLink1" alt="alt title"/>
+
 - Select '+ Source', then LOLED LiveLink, set the port number to the UDP port you configured in dest.txt file
   - You can leave the IP address set to 0.0.0.0
   - be sure to click OK button to close
 
 - If the SYNCRO-LINK is configured properly and streaming UDP packets, you will see 4 green dots as shown below
-  <img src="/images/livelink2.png" title="LiveLink2" alt="alt title"/>
+
+    <img src="/images/livelink2.png" title="LiveLink2" alt="alt title"/>
+
 - If you click on the ..._Lens@... subject, under view options, you can show live frame data
 - As you rotate the lens, you should see these values changing, top field is focus distance in mm
 - If data is updating and you have green dots, then everything should be good with LiveLink
@@ -69,9 +73,7 @@ myproject.uproject
 - Under XDClient Details, select the blue 'Edit Blueprint' button
 - The Blueprint should look like this
 
-<a href="/images/fullsize/blueprint.png">
-<img src="/images/blueprint.png" title="blueprint" alt="alt title"/>
-</a>
+    <a href="/images/fullsize/blueprint.png"><img src="/images/blueprint.png" title="blueprint" alt="alt title"/></a>
 
 - Find the Make Fx Fy section
   - Enter the 'Sensor Res X' as the video width being ingested into Unreal
@@ -79,25 +81,25 @@ myproject.uproject
   - Enter the 'Sensor Res Y' as the video height being ingested into Unreal
   - Enter the 'Sensor Size X' as the width in mm of the sensor's active area being used to capture the resolution.
   - It is important to take into account any scaling and cropping being done to determine the active area of the sensor for these values. Consult the camera manufacturer's information.
-  <a href="/images/fullsize/pixel1.png">
-    <img src="/images/pixel1.png" title="Pixel Resolution" alt="alt title"/>
-  </a>
+
+    <a href="/images/fullsize/pixel1.png"><img src="/images/pixel1.png" title="Pixel Resolution" alt="alt title"/></a>
+
 - Find the Distortion section and set the subject to ..._Distortion...
-  <a href="/images/fullsize/distortion.png">
-    <img src="/images/distortion.png" title="distortion" alt="alt title"/>
-  </a>
+
+    <a href="/images/fullsize/distortion.png"><img src="/images/distortion.png" title="distortion" alt="alt title"/></a>
+
 - Find the Image Height section and set the subject to ..._ImageHeight...
-  <a href="/images/fullsize/imageheight.png">
-    <img src="/images/imageheight.png" title="image height" alt="alt title"/>
-  </a>
+
+    <a href="/images/fullsize/imageheight.png"><img src="/images/imageheight.png" title="image height" alt="alt title"/></a>
+
 - Find the Distortion section and set the subject to ..._Shading...
-  <a href="/images/fullsize/shading.png">
-    <img src="/images/shading.png" title="shading" alt="alt title"/>
-  </a>
+
+    <a href="/images/fullsize/shading.png"><img src="/images/shading.png" title="shading" alt="alt title"/></a>
+
 - Find the Distortion section and set the subject to ..._Lens...
-  <a href="/images/fullsize/lens.png">
-    <img src="/images/lens.png" title="Lens" alt="alt title"/>
-  </a>
+
+    <a href="/images/fullsize/lens.png"><img src="/images/lens.png" title="Lens" alt="alt title"/></a>
+
 - When you hit 'Play', you should see orange lines with data blobs flowing in & out of the 'Evaluate Live Link Frame' boxes. At this point, everything is connected and data is streaming.
 - At this point, close the blueprint.
 
@@ -109,6 +111,7 @@ myproject.uproject
 ### Confirm CineCameraActor is updating
 
 - Now in your project click on CineCameraActor. The window showing the actual focal length of the lens. If it matches, everything is configured.
-<img src="/images/cinecameraactor.png" title="cine camera actor" alt="alt title"/>
+
+    <img src="/images/cinecameraactor.png" title="cine camera actor" alt="alt title"/>
 
 - If the film back settings don't match, you can update them
