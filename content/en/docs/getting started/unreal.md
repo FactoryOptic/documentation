@@ -79,26 +79,31 @@ myproject.uproject
   - Enter the 'Sensor Res Y' as the video height being ingested into Unreal
   - Enter the 'Sensor Size X' as the width in mm of the sensor's active area being used to capture the resolution.
   - It is important to take into account any scaling and cropping being done to determine the active area of the sensor for these values. Consult the camera manufacturer's information.
+
 <a href="/images/fullsize/pixel1.png">
 <img src="/images/pixel1.png" title="Pixel Resolution" alt="alt title"/>
 </a>
 
 - Find the Distortion section and set the subject to ..._Distortion...
+
 <a href="/images/fullsize/distortion.png">
 <img src="/images/distortion.png" title="distortion" alt="alt title"/>
 </a>
 
 - Find the Image Height section and set the subject to ..._ImageHeight...
+
 <a href="/images/fullsize/imageheight.png">
 <img src="/images/imageheight.png" title="image height" alt="alt title"/>
 </a>
 
 - Find the Distortion section and set the subject to ..._Shading...
+
 <a href="/images/fullsize/shading.png">
 <img src="/images/shading.png" title="shading" alt="alt title"/>
 </a>
 
 - Find the Distortion section and set the subject to ..._Lens...
+
 <a href="/images/fullsize/lens.png">
 <img src="/images/lens.png" title="Lens" alt="alt title"/>
 </a>
@@ -114,6 +119,7 @@ myproject.uproject
 ### Confirm CineCameraActor is updating
 
 - Now in your project click on CineCameraActor. The window showing the actual focal length of the lens. If it matches, everything is configured.
+
 <img src="/images/cinecameraactor.png" title="cine camera actor" alt="alt title"/>
 
 - If the film back settings don't match, you can update them
