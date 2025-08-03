@@ -29,7 +29,7 @@ module.exports = [
     },
     rules: {
       // Core recommended rules
-      'no-unused-vars': 'warn',
+      'no-unused-vars': 'error',
       'no-undef': 'error',
       // React recommended rules
       'react/react-in-jsx-scope': 'off',
