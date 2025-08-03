@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>FACTORY OPTIC on </title>
+    <link>http://localhost:1313/contributors/factory-optic/</link>
+    <description>Recent content in FACTORY OPTIC on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright (c) 2021-2022 Factory Optic</copyright>
+    <lastBuildDate>Tue, 06 Oct 2020 08:50:45 +0000</lastBuildDate>
+    
+        <atom:link href="http://localhost:1313/contributors/factory-optic/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Blog</title>
+      <link>http://localhost:1313/blog/blog/</link>
+      <pubDate>Wed, 04 Nov 2020 09:19:42 +0100</pubDate>
+      
+      <guid>http://localhost:1313/blog/blog/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

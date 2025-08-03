@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Serial Interface on </title>
+    <link>http://localhost:1313/docs/serialinterface/</link>
+    <description>Recent content in Serial Interface on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright (c) 2021-2022 Factory Optic</copyright>
+    <lastBuildDate>Tue, 06 Oct 2020 08:49:15 +0000</lastBuildDate>
+    
+        <atom:link href="http://localhost:1313/docs/serialinterface/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cooke /i Interface</title>
+      <link>http://localhost:1313/docs/serialinterface/cookei/</link>
+      <pubDate>Tue, 06 Oct 2020 08:49:31 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/serialinterface/cookei/</guid>
+      <description>&lt;h3 id=&#34;cooke-i--i-squared&#34;&gt;Cooke /i &amp;amp; /i squared &lt;a href=&#34;#cooke-i--i-squared&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Cooke metadata collected by SYNCRO-LINK will include the following CORE metadata dynamic values:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Focal Length
+Focus Distance
+Aperture
+Hyperfocal distance
+Near focus distance
+Far focus distance
+Entrance pupil position
+Horizontal field of view, based on 35mm film reference frame
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Static values include&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Lens serial number
+Lens owner data
+Lens firmware version
+Lens name of manufacturer
+Lens name (typically the lens model #)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;zeiss-extended-data-xd-based-on-cooke-i&#34;&gt;Zeiss eXtended Data (XD) based on Cooke /i &lt;a href=&#34;#zeiss-extended-data-xd-based-on-cooke-i&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;XD data will include all the metadata above and adds the following dynamic values:&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

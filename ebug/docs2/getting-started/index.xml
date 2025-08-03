@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Getting Started on </title>
+    <link>http://localhost:1313/docs2/getting-started/</link>
+    <description>Recent content in Getting Started on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright (c) 2021-2022 Factory Optic</copyright>
+    <lastBuildDate>Tue, 06 Oct 2020 08:49:15 +0000</lastBuildDate>
+    
+        <atom:link href="http://localhost:1313/docs2/getting-started/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>SERVO32 Quick Start Guide</title>
+      <link>http://localhost:1313/docs2/getting-started/configurations32/</link>
+      <pubDate>Tue, 06 Oct 2020 08:49:31 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs2/getting-started/configurations32/</guid>
+      <description>&lt;img src=&#34;http://localhost:1313/images/s32/servo32labeled.png&#34; title=&#34;SERVO32 with labels&#34; alt=&#34;alt title&#34;/&gt;
+&lt;h2 id=&#34;description&#34;&gt;Description &lt;a href=&#34;#description&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The SERVO32 connects up to 8 MDRs using a single Hand Unit. All MDRs use their serial port to connect to the Primary port (1) and Replica ports (2).&lt;/p&gt;
+&lt;h3 id=&#34;primary-port-mdr&#34;&gt;Primary Port MDR &lt;a href=&#34;#primary-port-mdr&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;The MDR connected to the Primary port (1) should be linked to the Preston Hand Unit via RF or command cable. The Primary MDR typically provides power to the SERVO32 over the serial cable. When using a primary MDR-2, it is recommended to also provide power on the 2-pin Lemo.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>SERVO32 Display Settings</title>
+      <link>http://localhost:1313/docs2/getting-started/displays32/</link>
+      <pubDate>Tue, 06 Oct 2020 08:49:31 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs2/getting-started/displays32/</guid>
+      <description>&lt;p&gt;The SERVO32 has an onboard OLED display that displays useful information. You can cycle thru the displays using the side mounted rotary knob.&lt;/p&gt;
+&lt;h3 id=&#34;all-pages&#34;&gt;All Pages &lt;a href=&#34;#all-pages&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;All pages will show the following on the top bar:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;SERVO32 Firmware Version (v0.1.10 in the image below)&lt;/li&gt;
+&lt;li&gt;Input voltage provided either by the MDR on the primary port or by the power port (10.9 VDC in the image). Note, this is the approximate voltage provided by either the 2 pin Lemo or by MDR #1 via the 4 pin Lemo. If both Lemo and MDR are connected this will show the higher voltage of the 2 inputs.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;page-1---mdr-type&#34;&gt;Page 1 - MDR Type &lt;a href=&#34;#page-1---mdr-type&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;img src=&#34;http://localhost:1313/images/s32/displaypg01.png&#34; title=&#34;SERVO32 Display page 1&#34; alt=&#34;alt title&#34;/&gt;
+&lt;p&gt;For each MDR port this display will show the type of MDR connected. Unconnected ports will show &amp;mdash; (three dashes).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>MDR Motor Settings</title>
+      <link>http://localhost:1313/docs2/getting-started/motors/</link>
+      <pubDate>Tue, 06 Oct 2020 08:49:31 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs2/getting-started/motors/</guid>
+      <description>&lt;h2 id=&#34;primary-mdr-motors&#34;&gt;Primary MDR Motors &lt;a href=&#34;#primary-mdr-motors&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Each MDR can have 2, 3 or 4 motors, with one motor per channel on the SERVO32. Each MDR has an iris and focus motor at minimum, which are connected to channels 1 - 2. Some MDRs have a zoom, which connects to channel 3. And MDR-3s have a aux, which connects to channel 4.&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;MDR Port&lt;/th&gt;
+          &lt;th&gt;Motor Function&lt;/th&gt;
+          &lt;th&gt;Note&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;1&lt;/td&gt;
+          &lt;td&gt;Iris&lt;/td&gt;
+          &lt;td&gt;MDR-2, MDR-3 &amp;amp; MDR-4&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;2&lt;/td&gt;
+          &lt;td&gt;Focus&lt;/td&gt;
+          &lt;td&gt;MDR-2, MDR-3 &amp;amp; MDR-4&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;3&lt;/td&gt;
+          &lt;td&gt;Zoom&lt;/td&gt;
+          &lt;td&gt;MDR-2 &amp;amp; MDR-3&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;4&lt;/td&gt;
+          &lt;td&gt;Aux&lt;/td&gt;
+          &lt;td&gt;MDR-3 Only&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;servo32-motor-channels&#34;&gt;SERVO32 Motor Channels &lt;a href=&#34;#servo32-motor-channels&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;For a detailed layout of all channels, see the table below:&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Preston Compatibility</title>
+      <link>http://localhost:1313/docs2/getting-started/prestons32/</link>
+      <pubDate>Tue, 06 Oct 2020 08:49:31 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs2/getting-started/prestons32/</guid>
+      <description>&lt;img src=&#34;http://localhost:1313/images/s32/s32firmware.png&#34; title=&#34;SERVO32 Display showing firmware&#34; alt=&#34;alt title&#34;/&gt;
+&lt;h2 id=&#34;preston-mdr-firmware-compatibility&#34;&gt;Preston MDR Firmware Compatibility &lt;a href=&#34;#preston-mdr-firmware-compatibility&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;SERVO32 is currently compatible with the following firmware versions of the MDRs. If you need to upgrade firmware of the MDR, visit &lt;a href=&#34;https://prestoncinema.com/downloads/firmware&#34;&gt;Preston Cinema&lt;/a&gt;. To use firmware versions newer than shown here, please contact Factory Optic.&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;MDR&lt;/th&gt;
+          &lt;th&gt;Number of Serial Ports&lt;/th&gt;
+          &lt;th&gt;Firmware Version&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;MDR-2&lt;/td&gt;
+          &lt;td&gt;1&lt;/td&gt;
+          &lt;td&gt;Firmware v1.58&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;MDR-3&lt;/td&gt;
+          &lt;td&gt;2&lt;/td&gt;
+          &lt;td&gt;Firmware v1.144&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;MDR-4&lt;/td&gt;
+          &lt;td&gt;1&lt;/td&gt;
+          &lt;td&gt;Firmware v1.065&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Note: Some MDR-3s (1st Gen, prior to mid 2019) will only connect to SERVO32 on one port. Be sure to try both available ports.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

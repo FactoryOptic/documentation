@@ -14,51 +14,65 @@
 
 {{ $app := resources.Get "js/app.js" -}}
 
-{{ $slice := slice $app -}}
+{{ $slice := slice }}
+
+{{ if $app }}
+  {{ $slice = $slice | append $app }}
+{{ end }}
 
 {{ if .Site.Params.options.lazySizes -}}
-  {{ $lazySizes := resources.Get "js/lazysizes.js" -}}
-  {{ $lazySizes := $lazySizes | js.Build -}}
-  {{ $slice = $slice | append $lazySizes -}}
+  {{ $lazySizes := resources.Get "js/lazysizes.js" | js.Build -}}
+  {{ if $lazySizes }}
+    {{ $slice = $slice | append $lazySizes }}
+  {{ end }}
 {{ end -}}
 
 {{ if .Site.Params.options.clipBoard -}}
-  {{ $clipBoard := resources.Get "js/clipboard.js" -}}
-  {{ $clipBoard := $clipBoard | js.Build -}}
-  {{ $slice = $slice | append $clipBoard -}}
+  {{ $clipBoard := resources.Get "js/clipboard.js" | js.Build -}}
+  {{ if $clipBoard }}
+    {{ $slice = $slice | append $clipBoard }}
+  {{ end }}
 {{ end -}}
 
 {{ if .Site.Params.options.instantPage -}}
-  {{ $instantPage := resources.Get "js/instant.page.js" -}}
-  {{ $instantPage := $instantPage | js.Build -}}
-  {{ $slice = $slice | append $instantPage -}}
+  {{ $instantPage := resources.Get "js/instant.page.js" | js.Build -}}
+  {{ if $instantPage }}
+    {{ $slice = $slice | append $instantPage }}
+  {{ end }}
 {{ end -}}
 
 {{ if .Site.Params.options.flexSearch -}}
   {{ $flexSearch := resources.Get "js/vendor/flexsearch/dist/flexsearch.bundle.js" -}}
-  {{ $slice = $slice | append $flexSearch -}}
+  {{ if $flexSearch }}
+    {{ $slice = $slice | append $flexSearch }}
+  {{ end }}
 {{ end -}}
 
 {{ if .Site.Params.options.darkMode -}}
-  {{ $darkMode := resources.Get "js/darkmode.js" -}}
-  {{ $darkMode := $darkMode | js.Build -}}
-  {{ $slice = $slice | append $darkMode -}}
+  {{ $darkMode := resources.Get "js/darkmode.js" | js.Build -}}
+  {{ if $darkMode }}
+    {{ $slice = $slice | append $darkMode }}
+  {{ end }}
 {{ end -}}
 
 {{ if and (.Site.Params.alert) (.Site.Params.alertDismissable) -}}
-  {{ $alert := resources.Get "js/alert.js" -}}
-  {{ $alert := $alert | js.Build -}}
-  {{ $slice = $slice | append $alert -}}
+  {{ $alert := resources.Get "js/alert.js" | js.Build -}}
+  {{ if $alert }}
+    {{ $slice = $slice | append $alert }}
+  {{ end }}
 {{ end -}}
 
 {{ if .Site.Params.options.kaTex -}}
-  {{ $katexConfig := resources.Get "js/katex.js" -}}
-  {{ $katexConfig := $katexConfig | js.Build -}}
-  {{ $slice = $slice | append $katexConfig -}}
+  {{ $katexConfig := resources.Get "js/katex.js" | js.Build -}}
+  {{ if $katexConfig }}
+    {{ $slice = $slice | append $katexConfig }}
+  {{ end }}
 {{ end -}}
 
 {{ $scrollLock := resources.Get "js/scroll-lock.js" | js.Build -}}
-{{ $slice = $slice | append $scrollLock -}}
+{{ if $scrollLock }}
+  {{ $slice = $slice | append $scrollLock }}
+{{ end }}
 
 {{ $js := $slice | resources.Concat "main.js" -}}
 

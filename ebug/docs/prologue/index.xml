@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Prologue on </title>
+    <link>http://localhost:1313/docs/prologue/</link>
+    <description>Recent content in Prologue on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright (c) 2021-2022 Factory Optic</copyright>
+    <lastBuildDate>Tue, 06 Oct 2020 08:48:45 +0000</lastBuildDate>
+    
+        <atom:link href="http://localhost:1313/docs/prologue/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Introduction</title>
+      <link>http://localhost:1313/docs/prologue/introduction/</link>
+      <pubDate>Tue, 06 Oct 2020 08:48:57 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/prologue/introduction/</guid>
+      <description>&lt;img src=&#34;http://localhost:1313/images/markzeroworkflow.png&#34; title=&#34;MARK ZERO Typical Workflow&#34; alt=&#34;alt title&#34;/&gt;
+&lt;p&gt;The SYNCRO-LINK MARK ZERO connects to Zeiss and Fujinon lenses with ZEISS eXtended Data (XD) technology and provides timecode stamped, frame accurate lens metadata, via PoE. The metadata includes all the Cooke /i metadata as well as lens distortion in OpenCV formats for live feed into virtual production systems or for recording to be used in post.&lt;/p&gt;
+&lt;h3 id=&#34;quick-start&#34;&gt;Quick Start &lt;a href=&#34;#quick-start&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;See &lt;a href=&#34;http://localhost:1313/docs/getting-started/configuration/&#34;&gt;GETTING STARTED&lt;/a&gt;. section for the quick start setup SYNCRO-LINK with XD Lenses.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

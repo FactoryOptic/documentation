@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Help on </title>
+    <link>http://localhost:1313/docs/help/</link>
+    <description>Recent content in Help on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright (c) 2021-2022 Factory Optic</copyright>
+    <lastBuildDate>Tue, 06 Oct 2020 08:49:15 +0000</lastBuildDate>
+    
+        <atom:link href="http://localhost:1313/docs/help/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to Update</title>
+      <link>http://localhost:1313/docs/help/how-to-update/</link>
+      <pubDate>Thu, 12 Nov 2020 13:26:54 +0100</pubDate>
+      
+      <guid>http://localhost:1313/docs/help/how-to-update/</guid>
+      <description>&lt;h3 id=&#34;contact-factory-optic-for-firmware-updates-and-updating-instructions&#34;&gt;Contact FACTORY OPTIC for firmware updates and updating instructions &lt;a href=&#34;#contact-factory-optic-for-firmware-updates-and-updating-instructions&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Contact us &lt;a href=&#34;https://factoryoptic.com/?page_id=22&#34;&gt;here&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Troubleshooting</title>
+      <link>http://localhost:1313/docs/help/troubleshooting/</link>
+      <pubDate>Thu, 12 Nov 2020 15:22:20 +0100</pubDate>
+      
+      <guid>http://localhost:1313/docs/help/troubleshooting/</guid>
+      <description>&lt;h2 id=&#34;sd-card-issues&#34;&gt;SD Card Issues &lt;a href=&#34;#sd-card-issues&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Make sure SD card is inserted at boot up. It is not intended for the SD card to be removed during operation, so if it does get removed, be sure to reboot once it has been replaced.&lt;/p&gt;
+&lt;h2 id=&#34;problems-with-configuration&#34;&gt;Problems with configuration &lt;a href=&#34;#problems-with-configuration&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Delete the files on the SD card and install fresh from &lt;a href=&#34;https://github.com/FactoryOptic/syncrolinkSDCard&#34;&gt;github&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;network-issues&#34;&gt;Network Issues &lt;a href=&#34;#network-issues&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;SYNCRO-LINK can operate on any network, with our without a router. DHCP is supported, but STATIC is recommended.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>FAQ</title>
+      <link>http://localhost:1313/docs/help/faq/</link>
+      <pubDate>Tue, 06 Oct 2020 08:49:31 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/help/faq/</guid>
+      <description>&lt;h2 id=&#34;fac-faq&#34;&gt;FAC FAQ &lt;a href=&#34;#fac-faq&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

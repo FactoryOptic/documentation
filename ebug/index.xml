@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>FACTORY OPTIC DOCUMENTATION on </title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in FACTORY OPTIC DOCUMENTATION on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright (c) 2021-2022 Factory Optic</copyright>
+    <lastBuildDate>Tue, 06 Oct 2020 08:47:36 +0000</lastBuildDate>
+    
+        <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Docs</title>
+      <link>http://localhost:1313/guides/</link>
+      <pubDate>Tue, 25 Jan 2022 14:40:56 +0100</pubDate>
+      
+      <guid>http://localhost:1313/guides/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Blog</title>
+      <link>http://localhost:1313/blog/</link>
+      <pubDate>Tue, 06 Oct 2020 08:49:55 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Docs</title>
+      <link>http://localhost:1313/docs/</link>
+      <pubDate>Tue, 06 Oct 2020 08:48:23 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>QuickTC DOCUMENTATION</title>
+      <link>http://localhost:1313/docs3/</link>
+      <pubDate>Tue, 06 Oct 2020 08:47:36 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SERVO32 DOCUMENTATION</title>
+      <link>http://localhost:1313/docs2/</link>
+      <pubDate>Tue, 06 Oct 2020 08:47:36 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs2/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

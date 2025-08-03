@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mapping on </title>
+    <link>http://localhost:1313/docs2/mapping/</link>
+    <description>Recent content in Mapping on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright (c) 2021-2022 Factory Optic</copyright>
+    <lastBuildDate>Tue, 06 Oct 2020 08:49:15 +0000</lastBuildDate>
+    
+        <atom:link href="http://localhost:1313/docs2/mapping/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Mapping Overview</title>
+      <link>http://localhost:1313/docs2/mapping/mappingoverview/</link>
+      <pubDate>Tue, 06 Oct 2020 08:49:31 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs2/mapping/mappingoverview/</guid>
+      <description>&lt;p&gt;For the most part, arrays tend to use identical lenses and mapping is not required. However, when you encounter mismatched lenses, mapping allows you to use MDR-2, MDR-3 and MDR-4 all in the same system.&lt;/p&gt;
+&lt;h2 id=&#34;lens-mapping&#34;&gt;Lens Mapping &lt;a href=&#34;#lens-mapping&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Lens mapping is the process of creating a simple table for lens marks to motor positions. Below is an example map of an iris barrel.&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Barrel Mark&lt;/th&gt;
+          &lt;th&gt;Motor Position&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;MIN&lt;/td&gt;
+          &lt;td&gt;0&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;T1.9&lt;/td&gt;
+          &lt;td&gt;2553&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;T2.8&lt;/td&gt;
+          &lt;td&gt;16369&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;T4&lt;/td&gt;
+          &lt;td&gt;22662&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;T5.6&lt;/td&gt;
+          &lt;td&gt;31160&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;T8&lt;/td&gt;
+          &lt;td&gt;39340&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;T11&lt;/td&gt;
+          &lt;td&gt;47476&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;T16&lt;/td&gt;
+          &lt;td&gt;55957&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;T22&lt;/td&gt;
+          &lt;td&gt;64206&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;MAX&lt;/td&gt;
+          &lt;td&gt;65535&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;With lens mapping, you can achieve precise matching of lens marks even if you have lenses with different barrel mark scales. For example, some lenses are manually marked at the factory during calibration. It&amp;rsquo;s also possible to have 2 lenses with differences in the barrel marks. You will see this on Arri lenses like the Master Primes, which can have different scale classes. Using the SERVO32 with mapping enabled will let you match up lenses that wouldn&amp;rsquo;t match otherwise.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Choose lens mapping points</title>
+      <link>http://localhost:1313/docs2/mapping/lensmapping/</link>
+      <pubDate>Tue, 06 Oct 2020 08:49:31 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs2/mapping/lensmapping/</guid>
+      <description>&lt;h2 id=&#34;motor-values&#34;&gt;Motor Values &lt;a href=&#34;#motor-values&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Preston normalizes their motor positions as a 16 bit unsigned value in a range from 0x0000 to 0xFFFF in hexadecimal, which is 0-65535 in decimal. This means that the values you write for your lens mapping points should be as follows:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The MIN, or minimum value should always be 0.&lt;/li&gt;
+&lt;li&gt;The MAX, or maximum value should always be 65535.&lt;/li&gt;
+&lt;li&gt;Values in the table should never decrease from min to max.
+&lt;ul&gt;
+&lt;li&gt;If your motor values are not increasing, use the MDR switch/button to reverse the motor direction&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;note-on-motor-span&#34;&gt;Note on Motor Span &lt;a href=&#34;#note-on-motor-span&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Motor span is the actual motor encoder counts from end stop to end stop. This will vary from lens to lens as well as from lens motor to lens motor. This would be the raw range of motor positions, can could be less than 65535 or it could be much greater than 65535.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Save the lens map</title>
+      <link>http://localhost:1313/docs2/mapping/map-spreadsheet/</link>
+      <pubDate>Tue, 06 Oct 2020 08:49:31 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs2/mapping/map-spreadsheet/</guid>
+      <description>&lt;p&gt;Now that you have tested the marks with your motor values (see &lt;a href=&#34;http://localhost:1313/docs2/mapping/lensmapping/&#34;&gt;Choose lens mapping points&lt;/a&gt;) you will save the lens map.&lt;/p&gt;
+&lt;h2 id=&#34;saving-a-lens-map-in-excel&#34;&gt;Saving a Lens Map in Excel &lt;a href=&#34;#saving-a-lens-map-in-excel&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;http://localhost:1313/images/s32/servo32excel.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://localhost:1313/images/s32/servo32excel.png&#34; title=&#34;SERVO32 mechanical drawing&#34; alt=&#34;alt title&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Figure 1. Example lens map of 3 dissimilar motors mapping to one Primary Lens.&lt;/p&gt;
+&lt;p&gt;Make your lens maps using the provided Excel file as a template (contact us to request this file if it hasn&amp;rsquo;t been provided). Only one Excel file is needed for your setup. If you wish to have multiple camera setups, you should maintain one Excel file for each setup.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Program the lens maps</title>
+      <link>http://localhost:1313/docs2/mapping/mapuploadterminal/</link>
+      <pubDate>Tue, 06 Oct 2020 08:49:31 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs2/mapping/mapuploadterminal/</guid>
+      <description>&lt;p&gt;Requirements&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Computer (Windows/Mac/Linux) with USB Type-A port&lt;/li&gt;
+&lt;li&gt;Microsoft Excel&lt;/li&gt;
+&lt;li&gt;USB 2.0 Cable (Type-A to Micro-B)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;connect-servo32-to-the-computer&#34;&gt;Connect SERVO32 to the Computer &lt;a href=&#34;#connect-servo32-to-the-computer&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Using a USB cable, connect the SERVO32 to your computer&amp;rsquo;s USB port. You can connect to SERVO32 with any serial terminal app to upload maps, check maps, and disable mapping.&lt;/p&gt;
+&lt;h3 id=&#34;windows&#34;&gt;Windows &lt;a href=&#34;#windows&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;In Windows, look at Device Manager for the COM port and remember that number for later.
+Download a serial terminal, &lt;a href=&#34;https://www.putty.org&#34;&gt;PuTTY&lt;/a&gt; is a good option.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

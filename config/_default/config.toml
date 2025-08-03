@@ -6,7 +6,7 @@ enableEmoji = true
 enableGitInfo = false
 enableRobotsTXT = true
 languageCode = "en-US"
-paginate = 7
+pagination.pagerSize = 7
 rssLimit = 10
 
 # Multilingual
@@ -47,11 +47,6 @@ isPlainText = true
 noUgly = true
 rel  = "sitemap"
 
-[caches]
-  [caches.getjson]
-    dir = ":cacheDir/:project"
-    maxAge = "10s"
-
 [sitemap]
   changefreq = "weekly"
   filename = "sitemap.xml"
@@ -91,3 +86,5 @@ rel  = "sitemap"
 # Search
 [params]
 mainSections = ['blog', 'docs', 'docs2']
+
+pagination.pagerSize = 7

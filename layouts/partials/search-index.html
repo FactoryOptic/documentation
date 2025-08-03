@@ -1,0 +1,13 @@
+<script>
+  var docs = [
+    {{- range $index, $page := (where .Site.Pages "Section" "docs") -}}
+      {
+        id: {{ $index }},
+        href: "{{ .Permalink }}",
+        title: {{ .Title | jsonify }},
+        description: {{ .Params.description | jsonify }},
+        content: {{ .Content | jsonify }}
+      }{{ if lt (add $index 1) (len (where .Site.Pages "Section" "docs")) }},{{ end }}
+    {{- end -}}
+  ];
+</script>

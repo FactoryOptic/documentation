@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docs on </title>
+    <link>http://localhost:1313/docs/</link>
+    <description>Recent content in Docs on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright (c) 2021-2022 Factory Optic</copyright>
+    <lastBuildDate>Tue, 06 Oct 2020 08:48:23 +0000</lastBuildDate>
+    
+        <atom:link href="http://localhost:1313/docs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Prologue</title>
+      <link>http://localhost:1313/docs/prologue/</link>
+      <pubDate>Tue, 06 Oct 2020 08:48:45 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/prologue/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Getting Started</title>
+      <link>http://localhost:1313/docs/getting-started/</link>
+      <pubDate>Tue, 06 Oct 2020 08:49:15 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/getting-started/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Serial Interface</title>
+      <link>http://localhost:1313/docs/serialinterface/</link>
+      <pubDate>Tue, 06 Oct 2020 08:49:15 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/serialinterface/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Network Interface</title>
+      <link>http://localhost:1313/docs/networkinterface/</link>
+      <pubDate>Tue, 06 Oct 2020 08:49:15 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/networkinterface/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Help</title>
+      <link>http://localhost:1313/docs/help/</link>
+      <pubDate>Tue, 06 Oct 2020 08:49:15 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/help/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Network Interface on </title>
+    <link>http://localhost:1313/docs/networkinterface/</link>
+    <description>Recent content in Network Interface on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright (c) 2021-2022 Factory Optic</copyright>
+    <lastBuildDate>Tue, 06 Oct 2020 08:49:15 +0000</lastBuildDate>
+    
+        <atom:link href="http://localhost:1313/docs/networkinterface/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>LONET</title>
+      <link>http://localhost:1313/docs/networkinterface/lonet/</link>
+      <pubDate>Tue, 06 Oct 2020 08:49:31 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/networkinterface/lonet/</guid>
+      <description>&lt;h2 id=&#34;syncro-link-mark-zero-uses-loled-virtuals-open-source-unreal-plugin&#34;&gt;Syncro-Link Mark Zero uses LOLED VIRTUAL&amp;rsquo;s open source Unreal Plugin &lt;a href=&#34;#syncro-link-mark-zero-uses-loled-virtuals-open-source-unreal-plugin&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The pre-compiled plugins can be found on &lt;a href=&#34;https://loledvirtual.com/documentation/software-downloads/unreal-plugin-releases&#34;&gt;loledvirtual&lt;/a&gt; and the source can be found on &lt;a href=&#34;https://github.com/MadlyFX/LONET-2-LiveLink-Plugin&#34;&gt;Github&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;unreal-engine-427-open-source-plugin-from-loled&#34;&gt;Unreal Engine 4.27 Open Source Plugin from LOLED &lt;a href=&#34;#unreal-engine-427-open-source-plugin-from-loled&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Download the latest plugin (1.7.0 or newer) from LOLED VIRTUAL: &lt;a href=&#34;https://loledvirtual.com/documentation/software-downloads/files&#34;&gt;https://loledvirtual.com/documentation/software-downloads/files&lt;/a&gt; under /Unreal Plugin/4.27/&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;See &lt;a href=&#34;http://localhost:1313/docs/getting-started/unreal/&#34;&gt;Unreal&lt;/a&gt; for how to setup and configure&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;unreal-engine-50-open-source-plugin-from-loled&#34;&gt;Unreal Engine 5.0 Open Source Plugin from LOLED &lt;a href=&#34;#unreal-engine-50-open-source-plugin-from-loled&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Download the latest plugin (2.4.1 or newer) from LOLED VIRTUAL: &lt;a href=&#34;https://loledvirtual.com/documentation/software-downloads/files&#34;&gt;https://loledvirtual.com/documentation/software-downloads/files&lt;/a&gt; under /Unreal Plugin/5.0/&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;configure-syncro-link-mark-zero-for-streaming-to-lonet-plugin-using-live-link&#34;&gt;Configure SYNCRO-LINK Mark-Zero for streaming to LONET plugin using Live Link &lt;a href=&#34;#configure-syncro-link-mark-zero-for-streaming-to-lonet-plugin-using-live-link&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;On the micro-SD card, there is a config file for user selecting the streaming format.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>UDP F3 Streaming Protocol</title>
+      <link>http://localhost:1313/docs/networkinterface/udpf3/</link>
+      <pubDate>Tue, 06 Oct 2020 08:49:31 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/networkinterface/udpf3/</guid>
+      <description>&lt;h3 id=&#34;f3-protocol&#34;&gt;F3 Protocol &lt;a href=&#34;#f3-protocol&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;SYNCRO-LINK 0xF3 STREAMING DATAGRAM FORMAT
+Co-developed with LOLED Virtual for use with their open source Unreal Engine Plugin&lt;/p&gt;
+&lt;p&gt;UDP Destination Port Number: user configurable
+UDP Payload: Fields
+UDP Data format with comma delimiters, variable length, ASCII except field 01&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Field 01 0xF3 Packet identifier
+Field 02 Lens Name
+Field 03 Focus Distance in mm
+Field 04 Aperture Value
+Field 05 Focal Length in mm
+Field 06 Entrance Pupil in mm (signed value)
+Field 07 Hyperfocal Distance in mm
+Field 08 Near Focus Distance in mm
+Field 09 Far Focus Distance in mm
+Field 10 Horizontal Field of View in degrees
+
+Field 11 Image Height 0 in mm
+Field 12 Image Height 1 in mm
+Field 13 Image Height 2 in mm
+Field 14 Image Height 3 in mm
+Field 15 Image Height 4 in mm
+Field 16 Image Height 5 in mm
+Field 17 Image Height 6 in mm
+
+Field 18 Lens Shading/Vignetting 0 in %
+Field 19 Lens Shading/Vignetting 1 in %
+Field 20 Lens Shading/Vignetting 2 in %
+Field 21 Lens Shading/Vignetting 3 in %
+Field 22 Lens Shading/Vignetting 4 in %
+Field 23 Lens Shading/Vignetting 5 in %
+Field 24 Lens Shading/Vignetting 6 in %
+
+Field 25 OpenCV Radial Distortion Coefficient k1 as float
+Field 26 OpenCV Radial Distortion Coefficient k2 as float
+Field 27 OpenCV Tangential Distortion Coefficient p1 as float
+Field 28 OpenCV Tangential Distortion Coefficient p2 as float
+Field 29 OpenCV Radial Distortion Coefficient k3 as float
+Field 30 OpenCV Radial Distortion Coefficient k4 as float
+Field 31 OpenCV Radial Distortion Coefficient k5 as float
+Field 32 OpenCV Radial Distortion Coefficient k6 as float
+Field 33 OpenCV Cx as float
+Field 34 OpenCV Cy as float
+
+Field 35 Timecode HH:MM:SS:FF
+Field 36 Dropframe (0=non-dropframe, 1=dropframe)
+Field 37 Video Framerate (0,23.98,24,25,29.97,30,47.95,48,50,59.94,60)
+Field 38 Lens Manufacturer
+Field 39 Lens Serial Number
+Field 40 Lens Owner
+Field 41 Lens Firmware Version
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Example UDP Packet Data&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>FreeD Protocol</title>
+      <link>http://localhost:1313/docs/networkinterface/freed/</link>
+      <pubDate>Tue, 06 Oct 2020 08:49:31 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/networkinterface/freed/</guid>
+      <description>&lt;h3 id=&#34;freed&#34;&gt;FreeD &lt;a href=&#34;#freed&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;With XD or Cooke /i lenses, SYNCRO-LINK will send FreeD packets containing zoom, focus and iris as scaled integers as follows&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;zoom focal length (24 bits) as focal length in mm x 64
+focus distance (24 bits) as focus distance in mm x 64
+iris stop (12 bits) as stop x 10
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;For example, FreeD will send zoom as 1792 when actual focal length is 28mm.&lt;/p&gt;
+&lt;p&gt;All camera position tracking fields will be sent as zeros.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Disguise OSC Protocol</title>
+      <link>http://localhost:1313/docs/networkinterface/disguiseosc/</link>
+      <pubDate>Tue, 06 Oct 2020 08:49:31 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/networkinterface/disguiseosc/</guid>
+      <description>&lt;h3 id=&#34;osc-open-sound-control&#34;&gt;OSC (Open Sound Control) &lt;a href=&#34;#osc-open-sound-control&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;The OSC packet will be sent as a bundle in the following format&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;d3/camera/cam1/focus:0.0
+d3/camera/cam1/zoom:0.0
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The values will be as follows&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;zoom focal length (float) in mm
+focus distance (float) in cm
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;configure-syncro-link-mark-zero-for-streaming-to-disguise-with-osc&#34;&gt;Configure SYNCRO-LINK Mark-Zero for streaming to Disguise with OSC &lt;a href=&#34;#configure-syncro-link-mark-zero-for-streaming-to-disguise-with-osc&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;On the micro-SD card, there is a config file for user selecting the streaming format.&lt;/p&gt;
+&lt;p&gt;If file doesn&amp;rsquo;t exist, you need to create the file, naming it &amp;lsquo;stream.txt&amp;rsquo;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

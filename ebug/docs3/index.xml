@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>QuickTC DOCUMENTATION on </title>
+    <link>http://localhost:1313/docs3/</link>
+    <description>Recent content in QuickTC DOCUMENTATION on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright (c) 2021-2022 Factory Optic</copyright>
+    <lastBuildDate>Tue, 06 Oct 2020 08:47:36 +0000</lastBuildDate>
+    
+        <atom:link href="http://localhost:1313/docs3/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>QuickTC Overview</title>
+      <link>http://localhost:1313/docs3/quicktc/</link>
+      <pubDate>Tue, 06 Oct 2020 08:48:57 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs3/quicktc/</guid>
+      <description>&lt;img src=&#34;http://localhost:1313/images/qtc/qtcrender1.png&#34; title=&#34;QuickTC&#34; alt=&#34;alt title&#34;/&gt;
+&lt;p&gt;Factory Optic&amp;rsquo;s SYNCRO-LINK QuickTC can quickly verify and debug all aspects of SMPTE timecode and fits in your hand. QuickTC has advantages like freeze mode, where you can freeze timecode and verbally confirm it over intercom during filming. Its also easy to set up and use, charges in an hour, and has a lanyard to keep it in easy reach.&lt;/p&gt;
+&lt;h3 id=&#34;setup&#34;&gt;Setup &lt;a href=&#34;#setup&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;To see how to connect and operate it with your equipment see the &lt;a href=&#34;http://localhost:1313/docs3/getting-started/connections/&#34;&gt;QuickTC Setup&lt;/a&gt; page.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Getting Started</title>
+      <link>http://localhost:1313/docs3/getting-started/</link>
+      <pubDate>Tue, 06 Oct 2020 08:49:15 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs3/getting-started/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
