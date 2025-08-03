@@ -31,7 +31,7 @@
   {{ $clipBoard := resources.Get "js/clipboard.js" | js.Build -}}
   {{ if $clipBoard }}
     {{ $slice = $slice | append $clipBoard }}
-  {{ end }}
+  {{ end -}}
 {{ end -}}
 
 {{ if .Site.Params.options.instantPage -}}
@@ -41,8 +41,8 @@
   {{ end }}
 {{ end -}}
 
+{{ $flexSearch := resources.Get "js/vendor/flexsearch/dist/flexsearch.bundle.js" -}}
 {{ if .Site.Params.options.flexSearch -}}
-  {{ $flexSearch := resources.Get "js/vendor/flexsearch/dist/flexsearch.bundle.js" -}}
   {{ if $flexSearch }}
     {{ $slice = $slice | append $flexSearch }}
   {{ end }}
@@ -77,6 +77,12 @@
 {{ $js := $slice | resources.Concat "main.js" -}}
 
 {{ if eq (hugo.Environment) "development" -}}
+  {{ if .Site.Params.options.flexSearch -}}
+    {{ if $flexSearch }}
+  <script src="{{ $flexSearch.RelPermalink }}" defer></script>
+{{ end }}
+  {{ end -}}
+  <script src="{{ $js.RelPermalink }}" defer></script>
   {{ if .Site.Params.options.bootStrapJs -}}
     <script src="{{ $bs.RelPermalink }}" defer></script>
   {{ end -}}
@@ -87,7 +93,6 @@
     <script src="{{ $katex.RelPermalink }}" defer></script>
     <script src="{{ $katexAutoRender.RelPermalink }}" onload="renderMathInElement(document.body);" defer></script>
   {{ end -}}
-  <script src="{{ $js.RelPermalink }}" defer></script>
   {{ with .Params.mermaid -}}
     <script src="{{ $mermaid.RelPermalink }}" defer></script>
   {{ end -}}
@@ -102,6 +107,10 @@
   {{ $katex := $katex | minify | fingerprint "sha512" -}}
   {{ $katexAutoRender := $katexAutoRender | minify | fingerprint "sha512" -}}
   {{ $mermaid := $mermaid | minify | fingerprint "sha512" -}}
+  {{ if .Site.Params.options.flexSearch -}}
+    <script src="{{ $flexSearch.RelPermalink }}" integrity="{{ $flexSearch.Data.Integrity }}" crossorigin="anonymous" defer></script>
+  {{ end -}}
+  <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" crossorigin="anonymous" defer></script>
   {{ if .Site.Params.options.bootStrapJs -}}
     <script src="{{ $bs.RelPermalink }}" integrity="{{ $bs.Data.Integrity }}" crossorigin="anonymous" defer></script>
   {{ end -}}
@@ -112,7 +121,6 @@
     <script src="{{ $katex.RelPermalink }}" integrity="{{ $katex.Data.Integrity }}" crossorigin="anonymous" defer></script>
     <script src="{{ $katexAutoRender.RelPermalink }}" integrity="{{ $katexAutoRender.Data.Integrity }}" crossorigin="anonymous" defer></script>
   {{ end -}}
-  <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" crossorigin="anonymous" defer></script>
   {{ with .Params.mermaid -}}
     <script src="{{ $mermaid.RelPermalink }}" integrity="{{ $mermaid.Data.Integrity }}" crossorigin="anonymous" defer></script>
   {{ end -}}

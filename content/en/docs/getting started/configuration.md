@@ -21,7 +21,7 @@ The device should contain a card already, but if you need to replace, it should 
 
 In the SD card is a folder named 'config'. Inside this folder is the config files for the network.
 
-A fresh copy of the SD Card can be found [here](https://github.com/FactoryOptic/syncrolinkSDCard)
+A fresh copy of the SD Card can be found [on the SYNCRO-LINK SD Card GitHub repository](https://github.com/FactoryOptic/syncrolinkSDCard)
 
 ```text
 plaintext

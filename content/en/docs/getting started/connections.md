@@ -48,5 +48,4 @@ The blue LED on the D-SUB housing indicates the presence of power with the corre
 
 The cable has an internal resettable fuse and reverse polarity protection circuitry to protect the lens from damage.
 
-To use the cable with a standard computer RS232 port, a DC input jack is provided on the rear of the D-SUB shell. This jack is a standard DC power jack, 2.1 mm x 5.5 mm with center pin positive. Digi-Key part # [
-364-1254-ND](https://www.digikey.com/en/products/detail/tri-mag-llc/L6R06H-120/7682617) 12V 6W AC/DC External Wall Mount (Class II) Adapter can be used.
+To use the cable with a standard computer RS232 port, a DC input jack is provided on the rear of the D-SUB shell. This jack is a standard DC power jack, 2.1 mm x 5.5 mm with center pin positive. Digi-Key part # [364-1254-ND](https://www.digikey.com/en/products/detail/tri-mag-llc/L6R06H-120/7682617) 12V 6W AC/DC External Wall Mount (Class II) Adapter can be used.

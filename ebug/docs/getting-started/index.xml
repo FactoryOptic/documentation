@@ -22,7 +22,7 @@
 &lt;p&gt;On the side of the SYNCRO-LINK is an microSD slot with a factory installed memory card.&lt;/p&gt;
 &lt;p&gt;The device should contain a card already, but if you need to replace, it should be formatted as FAT32 and can be up to 32GB.&lt;/p&gt;
 &lt;p&gt;In the SD card is a folder named &amp;lsquo;config&amp;rsquo;. Inside this folder is the config files for the network.&lt;/p&gt;
-&lt;p&gt;A fresh copy of the SD Card can be found &lt;a href=&#34;https://github.com/FactoryOptic/syncrolinkSDCard&#34;&gt;here&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;A fresh copy of the SD Card can be found &lt;a href=&#34;https://github.com/FactoryOptic/syncrolinkSDCard&#34;&gt;on the SYNCRO-LINK SD Card GitHub repository&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>

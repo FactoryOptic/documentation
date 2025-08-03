@@ -15,4 +15,6 @@ toc: true
 
 ### Contact FACTORY OPTIC for firmware updates and updating instructions
 
-Contact us [here](https://factoryoptic.com/?page_id=22)
+Contact us [on this page](https://factoryoptic.com/?page_id=22).
+
+For instructions, see [the SYNCRO-LINK SD Card GitHub repository](https://github.com/FactoryOptic/syncrolinkSDCard).

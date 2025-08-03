@@ -1,3 +1,5 @@
+/* global FlexSearch, docs */
+
 var suggestions = document.getElementById('suggestions');
 var search = document.getElementById('search');
 
