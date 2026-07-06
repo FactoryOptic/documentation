@@ -40,7 +40,7 @@
   "devDependencies": {
     "@babel/cli": "^7.17",
     "@babel/core": "^7.17",
-    "@babel/preset-env": "^7.17",
+    "@babel/preset-env": "^8.0",
     "@eslint/eslintrc": "^3.3.1",
     "@eslint/js": "^9.32.0",
     "@fullhuman/postcss-purgecss": "^6.0",
