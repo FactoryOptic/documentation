@@ -3,7 +3,7 @@ title: "QuickTC Overview"
 description: "QuickTC is a convenient tool for anyone working with SMPTE timecode."
 lead: "QuickTC is a convenient tool for anyone working with SMPTE timecode."
 date: 2020-10-06T08:48:57+00:00
-lastmod: 2020-10-06T08:48:57+00:00
+lastmod: 2026-09-19T00:00:00+00:00
 draft: false
 images: []
 menu:
@@ -28,3 +28,7 @@ To see the various modes of use, including freezing timecode, reading out user b
 ### Battery
 
 To learn more about the battery life see the [QuickTC Battery]({{< relref "getting started/charging" >}}) page.
+
+### Troubleshooting
+
+If something is not right, see the [QuickTC Troubleshooting]({{< relref "getting started/troubleshooting" >}}) page.

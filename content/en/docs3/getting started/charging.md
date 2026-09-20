@@ -1,38 +1,35 @@
 ---
-title: "QuickTC Battery"
-description: "Recharging the internal battery"
+title: "QuickTC Charging"
+description: "Charging the QuickTC battery"
 lead: ""
-date: 2020-10-06T08:49:31+00:00
-lastmod: 2020-10-06T08:49:31+00:00
+date: 2026-09-19T00:00:00+00:00
+lastmod: 2026-09-19T00:00:00+00:00
 draft: false
 images: []
 menu:
   docs3:
     parent: "getting started"
-weight: 360
+weight: 320
 toc: true
 ---
 
-### Battery Specs
+## Charging
 
-<img src="/images/qtc/qtccharge.jpg" title="QuickTC Charging" alt="alt title"/>
+Connect any USB-C power source. The Charge LED is lit while charging and goes out when the battery is full.
+The **Battery** page shows `usb` while the cable is connected.
 
-Figure: Charging the QuickTC with USB-C
+<img src="/images/qtc/v2/06_battery_usb.png" title="Battery page while charging" alt="Battery page while charging"/>
 
-The QuickTC has a rechargeable battery that allows all-day use and takes an hour to fully recharge. An LED next to the USB-C port will remain on while charging and turn off when the battery is fully charged. QuickTC can remain unused and off for up to a year before needing recharging.
+## Battery readout
 
-The battery is lithium ion and the QuickTC is allowed in carry-on and checked baggage, per FAA Title 49 CFR 175.10(a)(18). Battery meets UN38.3 and IEC62133 standards and is UL Recognized according to UL1642.
+The percentage is shown in 5 % steps. Off the charger the reading only ever falls. On the charger it follows
+the battery.
 
-#### Charging Voltage
+## Calibration
 
-QuickTC requires USB at 5V @ 2.5W, which is the lowest power USB you typically find. Therefore any standard USB host such as a port on your laptop or phone charger should be compatible.
+The battery meter calibrates itself when the battery is fully charged. Nothing needs to be done, and the
+calibration survives firmware updates.
 
-#### Compatible Cables
+## Storage
 
-Both USB-C to USB-C and USB-A to USB-C cables are compatible with QuickTC.
-
-Note: There will be no USB data connection to a USB Host as the QuickTC is power sink only.
-
-### Battery Replacement
-
-If the battery needs replacing, it can be easily done by the user. Please contact Factory Optic for battery replacement instructions & replacement battery part number.
+Switched off, the unit uses almost no power, so it is ready when you pick it up. Charge it every six months if it sits unused. At 5 % the unit switches off and wakes only for a USB cable.

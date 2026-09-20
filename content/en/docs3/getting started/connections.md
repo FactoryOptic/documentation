@@ -2,8 +2,8 @@
 title: "QuickTC Setup"
 description: "How to wire up the QuickTC"
 lead: "How to connect and operate the QuickTC"
-date: 2020-10-06T08:49:31+00:00
-lastmod: 2020-10-06T08:49:31+00:00
+date: 2026-09-19T00:00:00+00:00
+lastmod: 2026-09-19T00:00:00+00:00
 draft: false
 images: []
 menu:
@@ -13,33 +13,45 @@ weight: 315
 toc: true
 ---
 
-<img src="/images/qtc/quicktcinfo.png" title="QuickTC Info" alt="alt title"/>
+<img src="/images/qtc/quicktcinfo.png" title="QuickTC Info" alt="QuickTC"/>
 
 ## Connecting the QuickTC
 
-Plug the coaxial timecode feed cable into the QuickTC BNC port. The cable should have a single-ended signal per SMPTE ST 12-1:2014. The signal should be typical 75 ohms and QuickTC has an input impedance of 10K.
+Plug the coaxial timecode feed into the QuickTC BNC. The signal should be single-ended SMPTE ST 12-1
+linear timecode. QuickTC presents a 10 kΩ input, so it can sit on a 75 Ω distribution without loading it.
 
-## Powering On the QuickTC
+## Powering On
 
-QuickTC has an internal battery that powers the device. When it is off, there are 3 methods to power on.
+QuickTC runs from its internal battery. When it is off, any of these switches it on:
 
-- Pressing the pushbutton OLED will power on the QuickTC.
-- Connecting a valid timecode should power on the QuickTC.
-- Connecting or disconnecting the USB-C cable will power on QuickTC.
+- Pressing the OLED display (it is the button).
+- Connecting a valid timecode signal.
+- Connecting **or disconnecting** a USB-C cable.
 
-Note: Battery capacity must be at least 5% to power on.
+Note: with the battery at 5 % or below the unit only wakes for a USB cable, so that it can charge.
 
-### Heartbeat LED Flashing Patterns
+The splash page shows the firmware version for two seconds, then the timecode readout or **No Signal**.
 
-QuickTC has 2 modes of flashing pattern for the Heartbeat LED
+## Heartbeat LED
 
-1. **Valid timecode:** With valid timecode connected, the LED will flash once per second for the duration of the first frame. When using multiple QuickTCs the LED on each QuickTC should flash at the same time to indicate timecode sync.
-2. **Invalid timecode:** Without valid timecode the LED will double flash about once per second.
+- **Valid timecode:** one flash per second, on frame 00. Several QuickTCs on the same feed flash
+  together, which is a quick visual check that they are in sync.
+- **No timecode:** a double flash about once a second.
 
-### Charge LED
+## Charge LED
 
-LED is on during charge when USB-C is connected.
+Lit while a USB-C cable is connected and the battery is charging.
 
-### Powering Off
+## Powering Off
 
-If QuickTC turns on and does not see a valid timecode signal, it will power off after about 10 seconds. Alternatively, when QuickTC experiences a loss of timecode, QuickTC will automatically power off after 30 seconds.
+QuickTC switches itself off:
+
+- **15 seconds** after power-on if no valid timecode has been seen, or
+- **20 seconds** after the timecode signal is lost, or
+- immediately when the battery reaches 5 %.
+
+The display shows **Powering down** for a moment first. A button press during that moment cancels the
+shutdown and wakes the unit again.
+
+While off, the unit still watches for a timecode signal, so plugging in a cable switches it on. Switched
+off, it uses almost no power.
