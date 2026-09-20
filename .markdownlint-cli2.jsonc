@@ -1,6 +1,7 @@
 {
   "config": {
     "default": true,
+    "MD001": { "front_matter_title": "" },
     "MD013": false,
     "MD024": false,
     "MD026": false,
