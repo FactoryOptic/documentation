@@ -51,7 +51,7 @@
     "eslint-plugin-react": "^7.37.5",
     "flexsearch": "^0.7.21",
     "highlight.js": "^11.5",
-    "hugo-extended": "0.155.3",
+    "hugo-extended": "0.166.0",
     "instant.page": "^5.1",
     "katex": "^0.16",
     "lazysizes": "^5.3",
